@@ -1,0 +1,10 @@
+[
+  {
+    "module": "tls_configuration_testing__weak_tls_config_count.py",
+    "classification": "TLS Configuration Testing",
+    "metric": "Weak TLS Config Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "TLS/Encryption Compliance"
+  }
+]

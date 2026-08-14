@@ -1,0 +1,10 @@
+[
+  {
+    "module": "cardholder_data_exposure_scan__chd_exposure_finding_count.py",
+    "classification": "Cardholder Data Exposure Scan",
+    "metric": "CHD Exposure Finding Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Payment Data Security"
+  }
+]

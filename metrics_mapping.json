@@ -1,0 +1,60 @@
+{
+  "l2_testing_type": "PCI-DSS Compliance",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "Payment Data Security": [
+      {
+        "classification": "Cardholder Data Exposure Scan",
+        "metric": "CHD Exposure Finding Count",
+        "primary_tool": "OWASP ZAP",
+        "secondary_tool": "mitmproxy + Presidio",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "payment_data_security",
+        "module": "cardholder_data_exposure_scan__chd_exposure_finding_count.py"
+      }
+    ],
+    "TLS/Encryption Compliance": [
+      {
+        "classification": "TLS Configuration Testing",
+        "metric": "Weak TLS Config Count",
+        "primary_tool": "testssl.sh (OSS)",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "tlsencryption_compliance",
+        "module": "tls_configuration_testing__weak_tls_config_count.py"
+      }
+    ]
+  }
+}
