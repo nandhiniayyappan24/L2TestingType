@@ -1,0 +1,18 @@
+[
+  {
+    "module": "pii_data_exposure_detection__pii_exposure_finding_count.py",
+    "classification": "PII Data Exposure Detection",
+    "metric": "PII Exposure Finding Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Student PII Exposure Scan"
+  },
+  {
+    "module": "pii_in_codebase_detection__pii_in_codebase_count.py",
+    "classification": "PII in Codebase Detection",
+    "metric": "PII in Codebase Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Student PII Exposure Scan"
+  }
+]

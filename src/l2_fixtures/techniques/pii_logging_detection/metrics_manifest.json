@@ -1,0 +1,10 @@
+[
+  {
+    "module": "pii_in_log_statements__pii_log_statement_count.py",
+    "classification": "PII in Log Statements",
+    "metric": "PII Log Statement Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "PII Logging Detection"
+  }
+]

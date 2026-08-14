@@ -1,0 +1,80 @@
+{
+  "l2_testing_type": "FERPA/COPPA Compliance",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "Student PII Exposure Scan": [
+      {
+        "classification": "PII Data Exposure Detection",
+        "metric": "PII Exposure Finding Count",
+        "primary_tool": "Microsoft Presidio",
+        "secondary_tool": "Gitleaks (custom regex)",
+        "sheet": "Compliance",
+        "technique_slug": "student_pii_exposure_scan",
+        "module": "pii_data_exposure_detection__pii_exposure_finding_count.py"
+      },
+      {
+        "classification": "PII in Codebase Detection",
+        "metric": "PII in Codebase Count",
+        "primary_tool": "Microsoft Presidio (fed files)",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "student_pii_exposure_scan",
+        "module": "pii_in_codebase_detection__pii_in_codebase_count.py"
+      }
+    ],
+    "Consent & Age-Gate Compliance": [
+      {
+        "classification": "COPPA Age Verification Testing",
+        "metric": "Age-Gate Bypass Count",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Postman",
+        "sheet": "Compliance",
+        "technique_slug": "consent_age_gate_compliance",
+        "module": "coppa_age_verification_testing__age_gate_bypass_count.py"
+      }
+    ],
+    "PII Logging Detection": [
+      {
+        "classification": "PII in Log Statements",
+        "metric": "PII Log Statement Count",
+        "primary_tool": "Semgrep (custom rules)",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "pii_logging_detection",
+        "module": "pii_in_log_statements__pii_log_statement_count.py"
+      }
+    ]
+  }
+}
