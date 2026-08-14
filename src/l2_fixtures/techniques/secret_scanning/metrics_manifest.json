@@ -1,0 +1,26 @@
+[
+  {
+    "module": "hardcoded_secret_detection__secrets_exposed_in_code_count.py",
+    "classification": "Hardcoded Secret Detection",
+    "metric": "Secrets Exposed in Code Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Secret Scanning"
+  },
+  {
+    "module": "pre_commit_secret_prevention__blocked_secret_commit_count.py",
+    "classification": "Pre-Commit Secret Prevention",
+    "metric": "Blocked Secret Commit Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Secret Scanning"
+  },
+  {
+    "module": "secrets_in_git_history__historical_secret_exposure_count.py",
+    "classification": "Secrets in Git History",
+    "metric": "Historical Secret Exposure Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Secret Scanning"
+  }
+]
