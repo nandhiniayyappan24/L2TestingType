@@ -1,0 +1,22 @@
+[
+  {
+    "module": "traffic_surge_handling__spike_recovery_time_s.py",
+    "l2_testing_type": "Performance Testing",
+    "classification": "Traffic Surge Handling",
+    "metric": "Spike Recovery Time (s)",
+    "excel_primary_tool": "K6",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Spike Testing"
+  },
+  {
+    "module": "error_rate_during_spike__spike_error_rate.py",
+    "l2_testing_type": "Performance Testing",
+    "classification": "Error Rate During Spike",
+    "metric": "Spike Error Rate %",
+    "excel_primary_tool": "K6",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Spike Testing"
+  }
+]

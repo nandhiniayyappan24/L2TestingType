@@ -1,0 +1,204 @@
+{
+  "excel_sheet": "Performance URL (API Service)",
+  "branch": "Performance-URL-API-Service",
+  "enterprise_python_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.1",
+    "coverage.py + beniget": "3.1",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.1",
+    "pydriller": "3.6",
+    "pylint": "3.1",
+    "pymcdc": "3.1",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.1",
+    "testmon": "3.1"
+  },
+  "technique_count": 10,
+  "metric_count": 16,
+  "techniques": {
+    "Load Signal Delta": [
+      {
+        "l2_testing_type": "Performance Testing",
+        "classification": "Load Testing",
+        "metric": "Throughput Under Load (RPS)",
+        "primary_tool": "K6",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "load_signal_delta",
+        "module": "load_testing__throughput_under_load_rps.py"
+      },
+      {
+        "l2_testing_type": "Performance Testing",
+        "classification": "Stress Testing",
+        "metric": "Peak Load Degradation %",
+        "primary_tool": "K6",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "load_signal_delta",
+        "module": "stress_testing__peak_load_degradation.py"
+      },
+      {
+        "l2_testing_type": "Performance Testing",
+        "classification": "Baseline Comparison Testing",
+        "metric": "Performance Regression Delta %",
+        "primary_tool": "K6",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "load_signal_delta",
+        "module": "baseline_comparison_testing__performance_regression_delta.py"
+      },
+      {
+        "l2_testing_type": "Performance Testing",
+        "classification": "Concurrency Testing",
+        "metric": "Max Concurrent Users (VU)",
+        "primary_tool": "K6",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "load_signal_delta",
+        "module": "concurrency_testing__max_concurrent_users_vu.py"
+      }
+    ],
+    "Error State Stability": [
+      {
+        "l2_testing_type": "Reliability Testing",
+        "classification": "Error Rate Monitoring",
+        "metric": "4xx/5xx Error Rate %",
+        "primary_tool": "K6",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "error_state_stability",
+        "module": "error_rate_monitoring__4xx5xx_error_rate.py"
+      }
+    ],
+    "Latency Consistency": [
+      {
+        "l2_testing_type": "Reliability Testing",
+        "classification": "p95 Latency Testing",
+        "metric": "p95 Response Time (ms)",
+        "primary_tool": "K6",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "latency_consistency",
+        "module": "p95_latency_testing__p95_response_time_ms.py"
+      },
+      {
+        "l2_testing_type": "Reliability Testing",
+        "classification": "p99 Latency Testing",
+        "metric": "p99 Response Time (ms)",
+        "primary_tool": "K6",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "latency_consistency",
+        "module": "p99_latency_testing__p99_response_time_ms.py"
+      },
+      {
+        "l2_testing_type": "Reliability Testing",
+        "classification": "Mean Response Time Monitoring",
+        "metric": "Mean Response Time (ms)",
+        "primary_tool": "K6",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "latency_consistency",
+        "module": "mean_response_time_monitoring__mean_response_time_ms.py"
+      }
+    ],
+    "Throughput Consistency": [
+      {
+        "l2_testing_type": "Reliability Testing",
+        "classification": "Request Success Rate",
+        "metric": "Successful Request Rate %",
+        "primary_tool": "K6",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "throughput_consistency",
+        "module": "request_success_rate__successful_request_rate.py"
+      }
+    ],
+    "Endurance Testing": [
+      {
+        "l2_testing_type": "Performance Testing",
+        "classification": "Soak Testing",
+        "metric": "Memory Leak Score",
+        "primary_tool": "K6",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "endurance_testing",
+        "module": "soak_testing__memory_leak_score.py"
+      }
+    ],
+    "Soak Testing": [
+      {
+        "l2_testing_type": "Performance Testing",
+        "classification": "CPU Utilisation Monitoring",
+        "metric": "Average CPU Utilisation % (Soak)",
+        "primary_tool": "K6 + Prometheus",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "soak_testing",
+        "module": "cpu_utilisation_monitoring__average_cpu_utilisation_soak.py"
+      }
+    ],
+    "Spike Testing": [
+      {
+        "l2_testing_type": "Performance Testing",
+        "classification": "Traffic Surge Handling",
+        "metric": "Spike Recovery Time (s)",
+        "primary_tool": "K6",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "spike_testing",
+        "module": "traffic_surge_handling__spike_recovery_time_s.py"
+      },
+      {
+        "l2_testing_type": "Performance Testing",
+        "classification": "Error Rate During Spike",
+        "metric": "Spike Error Rate %",
+        "primary_tool": "K6",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "spike_testing",
+        "module": "error_rate_during_spike__spike_error_rate.py"
+      }
+    ],
+    "Endpoint Latency Profiling": [
+      {
+        "l2_testing_type": "API Performance",
+        "classification": "Slowest Endpoint Detection",
+        "metric": "Top-N Slowest Endpoints (p95 ms)",
+        "primary_tool": "K6",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "endpoint_latency_profiling",
+        "module": "slowest_endpoint_detection__top_n_slowest_endpoints_p95_ms.py"
+      }
+    ],
+    "Connection Management": [
+      {
+        "l2_testing_type": "API Performance",
+        "classification": "Connection Pool Exhaustion Testing",
+        "metric": "Connection Pool Saturation %",
+        "primary_tool": "K6 + DB metrics",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "connection_management",
+        "module": "connection_pool_exhaustion_testing__connection_pool_saturation.py"
+      }
+    ],
+    "Caching Effectiveness": [
+      {
+        "l2_testing_type": "API Performance",
+        "classification": "Cache Hit Rate Testing",
+        "metric": "Cache Hit Rate %",
+        "primary_tool": "K6 + Redis metrics",
+        "secondary_tool": "",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "caching_effectiveness",
+        "module": "cache_hit_rate_testing__cache_hit_rate.py"
+      }
+    ]
+  }
+}

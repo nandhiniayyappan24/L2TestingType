@@ -1,0 +1,12 @@
+[
+  {
+    "module": "request_success_rate__successful_request_rate.py",
+    "l2_testing_type": "Reliability Testing",
+    "classification": "Request Success Rate",
+    "metric": "Successful Request Rate %",
+    "excel_primary_tool": "K6",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Throughput Consistency"
+  }
+]

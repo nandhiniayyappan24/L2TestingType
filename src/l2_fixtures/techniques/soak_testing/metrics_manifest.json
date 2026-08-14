@@ -1,0 +1,12 @@
+[
+  {
+    "module": "cpu_utilisation_monitoring__average_cpu_utilisation_soak.py",
+    "l2_testing_type": "Performance Testing",
+    "classification": "CPU Utilisation Monitoring",
+    "metric": "Average CPU Utilisation % (Soak)",
+    "excel_primary_tool": "K6 + Prometheus",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Soak Testing"
+  }
+]

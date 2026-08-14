@@ -1,0 +1,42 @@
+[
+  {
+    "module": "load_testing__throughput_under_load_rps.py",
+    "l2_testing_type": "Performance Testing",
+    "classification": "Load Testing",
+    "metric": "Throughput Under Load (RPS)",
+    "excel_primary_tool": "K6",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Load Signal Delta"
+  },
+  {
+    "module": "stress_testing__peak_load_degradation.py",
+    "l2_testing_type": "Performance Testing",
+    "classification": "Stress Testing",
+    "metric": "Peak Load Degradation %",
+    "excel_primary_tool": "K6",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Load Signal Delta"
+  },
+  {
+    "module": "baseline_comparison_testing__performance_regression_delta.py",
+    "l2_testing_type": "Performance Testing",
+    "classification": "Baseline Comparison Testing",
+    "metric": "Performance Regression Delta %",
+    "excel_primary_tool": "K6",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Load Signal Delta"
+  },
+  {
+    "module": "concurrency_testing__max_concurrent_users_vu.py",
+    "l2_testing_type": "Performance Testing",
+    "classification": "Concurrency Testing",
+    "metric": "Max Concurrent Users (VU)",
+    "excel_primary_tool": "K6",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Load Signal Delta"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "module": "slowest_endpoint_detection__top_n_slowest_endpoints_p95_ms.py",
+    "l2_testing_type": "API Performance",
+    "classification": "Slowest Endpoint Detection",
+    "metric": "Top-N Slowest Endpoints (p95 ms)",
+    "excel_primary_tool": "K6",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Endpoint Latency Profiling"
+  }
+]

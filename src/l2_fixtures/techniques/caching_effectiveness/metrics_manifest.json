@@ -1,0 +1,12 @@
+[
+  {
+    "module": "cache_hit_rate_testing__cache_hit_rate.py",
+    "l2_testing_type": "API Performance",
+    "classification": "Cache Hit Rate Testing",
+    "metric": "Cache Hit Rate %",
+    "excel_primary_tool": "K6 + Redis metrics",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Caching Effectiveness"
+  }
+]

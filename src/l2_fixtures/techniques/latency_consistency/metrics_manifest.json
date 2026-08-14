@@ -1,0 +1,32 @@
+[
+  {
+    "module": "p95_latency_testing__p95_response_time_ms.py",
+    "l2_testing_type": "Reliability Testing",
+    "classification": "p95 Latency Testing",
+    "metric": "p95 Response Time (ms)",
+    "excel_primary_tool": "K6",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Latency Consistency"
+  },
+  {
+    "module": "p99_latency_testing__p99_response_time_ms.py",
+    "l2_testing_type": "Reliability Testing",
+    "classification": "p99 Latency Testing",
+    "metric": "p99 Response Time (ms)",
+    "excel_primary_tool": "K6",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Latency Consistency"
+  },
+  {
+    "module": "mean_response_time_monitoring__mean_response_time_ms.py",
+    "l2_testing_type": "Reliability Testing",
+    "classification": "Mean Response Time Monitoring",
+    "metric": "Mean Response Time (ms)",
+    "excel_primary_tool": "K6",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Latency Consistency"
+  }
+]

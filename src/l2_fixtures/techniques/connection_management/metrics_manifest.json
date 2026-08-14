@@ -1,0 +1,12 @@
+[
+  {
+    "module": "connection_pool_exhaustion_testing__connection_pool_saturation.py",
+    "l2_testing_type": "API Performance",
+    "classification": "Connection Pool Exhaustion Testing",
+    "metric": "Connection Pool Saturation %",
+    "excel_primary_tool": "K6 + DB metrics",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Connection Management"
+  }
+]
