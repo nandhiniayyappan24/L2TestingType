@@ -1,0 +1,136 @@
+{
+  "excel_sheet": "Compliance Code (Repository)",
+  "branch": "Compliance-Code-Repository",
+  "enterprise_python_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.1",
+    "coverage.py + beniget": "3.1",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.1",
+    "pydriller": "3.6",
+    "pylint": "3.1",
+    "pymcdc": "3.1",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.1",
+    "testmon": "3.1"
+  },
+  "technique_count": 6,
+  "metric_count": 10,
+  "techniques": {
+    "Secret Detection": [
+      {
+        "l2_testing_type": "Static Code Analysis",
+        "classification": "Hardcoded Secret Scan",
+        "metric": "Secrets Exposed in Code Count",
+        "primary_tool": "Gitleaks / Trufflehog",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "secret_detection",
+        "module": "hardcoded_secret_scan__secrets_exposed_in_code_count.py"
+      },
+      {
+        "l2_testing_type": "Static Code Analysis",
+        "classification": "Pre-Commit Secret Prevention",
+        "metric": "Blocked Secret Commit Count",
+        "primary_tool": "detect-secrets / Gitleaks",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "secret_detection",
+        "module": "pre_commit_secret_prevention__blocked_secret_commit_count.py"
+      }
+    ],
+    "Student PII Exposure Scan": [
+      {
+        "l2_testing_type": "FERPA/COPPA Compliance",
+        "classification": "PII in Codebase Detection",
+        "metric": "PII in Codebase Count",
+        "primary_tool": "Microsoft Presidio (fed files)",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "student_pii_exposure_scan",
+        "module": "pii_in_codebase_detection__pii_in_codebase_count.py"
+      }
+    ],
+    "PII Logging Detection": [
+      {
+        "l2_testing_type": "FERPA/COPPA Compliance",
+        "classification": "PII in Log Statements",
+        "metric": "PII Log Statement Count",
+        "primary_tool": "Semgrep (custom rules)",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "pii_logging_detection",
+        "module": "pii_in_log_statements__pii_log_statement_count.py"
+      }
+    ],
+    "IaC Security Scanning": [
+      {
+        "l2_testing_type": "Static Code Analysis",
+        "classification": "Open Security Group Rule Detection",
+        "metric": "Open Firewall Rule Count (IaC)",
+        "primary_tool": "Checkov / tfsec",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "iac_security_scanning",
+        "module": "open_security_group_rule_detection__open_firewall_rule_count_iac.py"
+      },
+      {
+        "l2_testing_type": "Static Code Analysis",
+        "classification": "Unencrypted Storage Definition",
+        "metric": "Unencrypted Storage Count (IaC)",
+        "primary_tool": "Checkov / tfsec",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "iac_security_scanning",
+        "module": "unencrypted_storage_definition__unencrypted_storage_count_iac.py"
+      },
+      {
+        "l2_testing_type": "Static Code Analysis",
+        "classification": "Publicly Exposed Resource Detection",
+        "metric": "Public Storage Bucket Count (IaC)",
+        "primary_tool": "Checkov / kics",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "iac_security_scanning",
+        "module": "publicly_exposed_resource_detection__public_storage_bucket_count_iac.py"
+      },
+      {
+        "l2_testing_type": "Static Code Analysis",
+        "classification": "CIS Benchmark Compliance",
+        "metric": "CIS Benchmark Violation Count (IaC)",
+        "primary_tool": "Checkov",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "iac_security_scanning",
+        "module": "cis_benchmark_compliance__cis_benchmark_violation_count_iac.py"
+      }
+    ],
+    "Change Management Testing": [
+      {
+        "l2_testing_type": "SOC 2 Compliance",
+        "classification": "Change Control Verification",
+        "metric": "Unreviewed Change Count",
+        "primary_tool": "GitHub Branch Protection API",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "change_management_testing",
+        "module": "change_control_verification__unreviewed_change_count.py"
+      }
+    ],
+    "Secret Management": [
+      {
+        "l2_testing_type": "SOC 2 Compliance",
+        "classification": "Secrets in Repo History",
+        "metric": "Historical Secret Exposure Count",
+        "primary_tool": "Trufflehog",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "secret_management",
+        "module": "secrets_in_repo_history__historical_secret_exposure_count.py"
+      }
+    ]
+  }
+}
