@@ -1,0 +1,12 @@
+[
+  {
+    "module": "code_churn_in_performance_critical_paths__churn_score_performance_modules.py",
+    "l2_testing_type": "Code Quality",
+    "classification": "Code Churn in Performance-Critical Paths",
+    "metric": "Churn Score (Performance Modules)",
+    "excel_primary_tool": "pydriller / git log",
+    "python_primary_tool": "pydriller",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Technical Debt"
+  }
+]

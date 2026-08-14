@@ -1,0 +1,12 @@
+[
+  {
+    "module": "build_time_regression__build_duration_seconds.py",
+    "l2_testing_type": "Dependency Analysis",
+    "classification": "Build Time Regression",
+    "metric": "Build Duration (seconds)",
+    "excel_primary_tool": "GitHub Actions / GitLab CI/CD",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Build Performance"
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "excel_sheet": "Performance Code (Repository)",
+  "branch": "Performance-Code-Repository",
+  "enterprise_python_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.1",
+    "coverage.py + beniget": "3.1",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.1",
+    "pydriller": "3.6",
+    "pylint": "3.1",
+    "pymcdc": "3.1",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.1",
+    "testmon": "3.1"
+  },
+  "technique_count": 9,
+  "metric_count": 10,
+  "techniques": {
+    "Algorithmic Complexity": [
+      {
+        "l2_testing_type": "Static Analysis",
+        "classification": "Complexity-Based Performance Risk",
+        "metric": "Cyclomatic Complexity (Performance Hotspots)",
+        "primary_tool": "Lizard",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "algorithmic_complexity",
+        "module": "complexity_based_performance_risk__cyclomatic_complexity_performance_hotspots.py"
+      },
+      {
+        "l2_testing_type": "Static Analysis",
+        "classification": "Big-O Complexity Review",
+        "metric": "Nested Loop Depth Count",
+        "primary_tool": "Radon AST / custom AST parser",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "algorithmic_complexity",
+        "module": "big_o_complexity_review__nested_loop_depth_count.py"
+      }
+    ],
+    "Database Query Analysis": [
+      {
+        "l2_testing_type": "Static Analysis",
+        "classification": "N+1 Query Pattern Detection",
+        "metric": "N+1 Query Anti-Pattern Count",
+        "primary_tool": "Semgrep / AST Analysis",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "database_query_analysis",
+        "module": "n1_query_pattern_detection__n1_query_anti_pattern_count.py"
+      }
+    ],
+    "Memory Management": [
+      {
+        "l2_testing_type": "Static Analysis",
+        "classification": "Memory Allocation Pattern Analysis",
+        "metric": "Large Allocation in Loop Count",
+        "primary_tool": "Semgrep / AST Analysis",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "memory_management",
+        "module": "memory_allocation_pattern_analysis__large_allocation_in_loop_count.py"
+      }
+    ],
+    "Concurrency Analysis": [
+      {
+        "l2_testing_type": "Static Analysis",
+        "classification": "Thread-Safety Pattern Detection",
+        "metric": "Race Condition Risk Count",
+        "primary_tool": "Semgrep (concurrency rules)",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "concurrency_analysis",
+        "module": "thread_safety_pattern_detection__race_condition_risk_count.py"
+      }
+    ],
+    "Bundle Size Analysis": [
+      {
+        "l2_testing_type": "Dependency Analysis",
+        "classification": "Unused Dependency Detection",
+        "metric": "Unused Import Count",
+        "primary_tool": "pylint",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "bundle_size_analysis",
+        "module": "unused_dependency_detection__unused_import_count.py"
+      }
+    ],
+    "Build Performance": [
+      {
+        "l2_testing_type": "Dependency Analysis",
+        "classification": "Build Time Regression",
+        "metric": "Build Duration (seconds)",
+        "primary_tool": "GitHub Actions / GitLab CI/CD",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "build_performance",
+        "module": "build_time_regression__build_duration_seconds.py"
+      }
+    ],
+    "Dependency Graph Analysis": [
+      {
+        "l2_testing_type": "Dependency Analysis",
+        "classification": "Circular Dependency Detection",
+        "metric": "Circular Dependency Count",
+        "primary_tool": "pylint import graph",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "dependency_graph_analysis",
+        "module": "circular_dependency_detection__circular_dependency_count.py"
+      }
+    ],
+    "Technical Debt": [
+      {
+        "l2_testing_type": "Code Quality",
+        "classification": "Code Churn in Performance-Critical Paths",
+        "metric": "Churn Score (Performance Modules)",
+        "primary_tool": "pydriller / git log",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "technical_debt",
+        "module": "code_churn_in_performance_critical_paths__churn_score_performance_modules.py"
+      }
+    ],
+    "Test Coverage": [
+      {
+        "l2_testing_type": "Code Quality",
+        "classification": "Performance Test Code Coverage",
+        "metric": "Performance Test Coverage %",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "test_coverage",
+        "module": "performance_test_code_coverage__performance_test_coverage.py"
+      }
+    ]
+  }
+}

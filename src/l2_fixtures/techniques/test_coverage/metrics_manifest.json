@@ -1,0 +1,12 @@
+[
+  {
+    "module": "performance_test_code_coverage__performance_test_coverage.py",
+    "l2_testing_type": "Code Quality",
+    "classification": "Performance Test Code Coverage",
+    "metric": "Performance Test Coverage %",
+    "excel_primary_tool": "Coverage.py",
+    "python_primary_tool": "coverage.py",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Test Coverage"
+  }
+]
