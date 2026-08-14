@@ -1,0 +1,206 @@
+{
+  "l2_testing_type": "Static Code Analysis",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "Lint / Rule Violations": [
+      {
+        "classification": "Rule Detection Test",
+        "metric": "Violation Density per KLOC",
+        "primary_tool": "pylint",
+        "secondary_tool": "flake8",
+        "sheet": "White Box",
+        "technique_slug": "lint_rule_violations",
+        "module": "rule_detection_test__violation_density_per_kloc.py"
+      },
+      {
+        "classification": "Unused Variable Detection",
+        "metric": "Resource Waste Identification",
+        "primary_tool": "pylint",
+        "secondary_tool": "flake8",
+        "sheet": "White Box",
+        "technique_slug": "lint_rule_violations",
+        "module": "unused_variable_detection__resource_waste_identification.py"
+      },
+      {
+        "classification": "Naming Convention Validation",
+        "metric": "Semantic Consistency Score",
+        "primary_tool": "pylint",
+        "secondary_tool": "flake8",
+        "sheet": "White Box",
+        "technique_slug": "lint_rule_violations",
+        "module": "naming_convention_validation__semantic_consistency_score.py"
+      },
+      {
+        "classification": "Code Style Rule Validation",
+        "metric": "Syntactic Uniformity Score",
+        "primary_tool": "pylint",
+        "secondary_tool": "flake8",
+        "sheet": "White Box",
+        "technique_slug": "lint_rule_violations",
+        "module": "code_style_rule_validation__syntactic_uniformity_score.py"
+      },
+      {
+        "classification": "Complexity Rule Detection",
+        "metric": "Structural Threshold Monitoring",
+        "primary_tool": "pylint",
+        "secondary_tool": "flake8",
+        "sheet": "White Box",
+        "technique_slug": "lint_rule_violations",
+        "module": "complexity_rule_detection__structural_threshold_monitoring.py"
+      },
+      {
+        "classification": "Rule Severity Classification",
+        "metric": "Impact Prioritization",
+        "primary_tool": "pylint",
+        "secondary_tool": "flake8",
+        "sheet": "White Box",
+        "technique_slug": "lint_rule_violations",
+        "module": "rule_severity_classification__impact_prioritization.py"
+      },
+      {
+        "classification": "Multiple Violations Detection",
+        "metric": "Aggregated Risk Assessment",
+        "primary_tool": "pylint",
+        "secondary_tool": "flake8",
+        "sheet": "White Box",
+        "technique_slug": "lint_rule_violations",
+        "module": "multiple_violations_detection__aggregated_risk_assessment.py"
+      },
+      {
+        "classification": "False Positive Prevention",
+        "metric": "Accuracy Tuning",
+        "primary_tool": "pylint",
+        "secondary_tool": "flake8",
+        "sheet": "White Box",
+        "technique_slug": "lint_rule_violations",
+        "module": "false_positive_prevention__accuracy_tuning.py"
+      },
+      {
+        "classification": "Custom Rule Validation",
+        "metric": "Project-Specific Enforcement",
+        "primary_tool": "pylint",
+        "secondary_tool": "flake8",
+        "sheet": "White Box",
+        "technique_slug": "lint_rule_violations",
+        "module": "custom_rule_validation__project_specific_enforcement.py"
+      },
+      {
+        "classification": "Configuration File Handling",
+        "metric": "Environment Standardization",
+        "primary_tool": "pylint",
+        "secondary_tool": "flake8",
+        "sheet": "White Box",
+        "technique_slug": "lint_rule_violations",
+        "module": "configuration_file_handling__environment_standardization.py"
+      },
+      {
+        "classification": "CI/CD Integration Validation",
+        "metric": "Automated Gatekeeping",
+        "primary_tool": "pylint",
+        "secondary_tool": "flake8",
+        "sheet": "White Box",
+        "technique_slug": "lint_rule_violations",
+        "module": "cicd_integration_validation__automated_gatekeeping.py"
+      },
+      {
+        "classification": "Violation Reporting Validation",
+        "metric": "Quality Audit Trail",
+        "primary_tool": "pylint",
+        "secondary_tool": "flake8",
+        "sheet": "White Box",
+        "technique_slug": "lint_rule_violations",
+        "module": "violation_reporting_validation__quality_audit_trail.py"
+      }
+    ],
+    "Secret Detection": [
+      {
+        "classification": "Hardcoded Secret Scan",
+        "metric": "Secrets Exposed in Code Count",
+        "primary_tool": "Gitleaks / Trufflehog",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "secret_detection",
+        "module": "hardcoded_secret_scan__secrets_exposed_in_code_count.py"
+      },
+      {
+        "classification": "Pre-Commit Secret Prevention",
+        "metric": "Blocked Secret Commit Count",
+        "primary_tool": "detect-secrets / Gitleaks",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "secret_detection",
+        "module": "pre_commit_secret_prevention__blocked_secret_commit_count.py"
+      }
+    ],
+    "IaC Security Scanning": [
+      {
+        "classification": "Open Security Group Rule Detection",
+        "metric": "Open Firewall Rule Count (IaC)",
+        "primary_tool": "Checkov / tfsec",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "iac_security_scanning",
+        "module": "open_security_group_rule_detection__open_firewall_rule_count_iac.py"
+      },
+      {
+        "classification": "Unencrypted Storage Definition",
+        "metric": "Unencrypted Storage Count (IaC)",
+        "primary_tool": "Checkov / tfsec",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "iac_security_scanning",
+        "module": "unencrypted_storage_definition__unencrypted_storage_count_iac.py"
+      },
+      {
+        "classification": "Publicly Exposed Resource Detection",
+        "metric": "Public Storage Bucket Count (IaC)",
+        "primary_tool": "Checkov / kics",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "iac_security_scanning",
+        "module": "publicly_exposed_resource_detection__public_storage_bucket_count_iac.py"
+      },
+      {
+        "classification": "CIS Benchmark Compliance",
+        "metric": "CIS Benchmark Violation Count (IaC)",
+        "primary_tool": "Checkov",
+        "secondary_tool": "",
+        "sheet": "Compliance Code (Repository)",
+        "technique_slug": "iac_security_scanning",
+        "module": "cis_benchmark_compliance__cis_benchmark_violation_count_iac.py"
+      }
+    ]
+  }
+}
