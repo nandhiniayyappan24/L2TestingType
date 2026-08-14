@@ -1,0 +1,10 @@
+[
+  {
+    "module": "session_timeout_compliance__session_timeout_compliance_rate.py",
+    "classification": "Session Timeout Compliance",
+    "metric": "Session Timeout Compliance Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Session Management Testing"
+  }
+]
