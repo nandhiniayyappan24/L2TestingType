@@ -1,0 +1,18 @@
+[
+  {
+    "module": "traffic_surge_handling__spike_recovery_time_s.py",
+    "classification": "Traffic Surge Handling",
+    "metric": "Spike Recovery Time (s)",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Spike Testing"
+  },
+  {
+    "module": "error_rate_during_spike__spike_error_rate.py",
+    "classification": "Error Rate During Spike",
+    "metric": "Spike Error Rate %",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Spike Testing"
+  }
+]

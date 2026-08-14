@@ -1,0 +1,118 @@
+{
+  "l2_testing_type": "Performance Testing",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "Load Signal Delta": [
+      {
+        "classification": "Load Testing",
+        "metric": "Throughput Under Load (RPS)",
+        "primary_tool": "K6",
+        "secondary_tool": "JMeter (Apache)",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "load_signal_delta",
+        "module": "load_testing__throughput_under_load_rps.py"
+      },
+      {
+        "classification": "Stress Testing",
+        "metric": "Peak Load Degradation %",
+        "primary_tool": "K6",
+        "secondary_tool": "JMeter",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "load_signal_delta",
+        "module": "stress_testing__peak_load_degradation.py"
+      },
+      {
+        "classification": "Baseline Comparison Testing",
+        "metric": "Performance Regression Delta %",
+        "primary_tool": "K6",
+        "secondary_tool": "JMeter",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "load_signal_delta",
+        "module": "baseline_comparison_testing__performance_regression_delta.py"
+      },
+      {
+        "classification": "Concurrency Testing",
+        "metric": "Max Concurrent Users (VU)",
+        "primary_tool": "K6",
+        "secondary_tool": "JMeter",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "load_signal_delta",
+        "module": "concurrency_testing__max_concurrent_users_vu.py"
+      }
+    ],
+    "Endurance Testing": [
+      {
+        "classification": "Soak Testing",
+        "metric": "Memory Leak Score",
+        "primary_tool": "K6",
+        "secondary_tool": "JMeter",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "endurance_testing",
+        "module": "soak_testing__memory_leak_score.py"
+      }
+    ],
+    "Soak Testing": [
+      {
+        "classification": "CPU Utilisation Monitoring",
+        "metric": "Average CPU Utilisation % (Soak)",
+        "primary_tool": "K6 + Prometheus",
+        "secondary_tool": "JMeter + Grafana",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "soak_testing",
+        "module": "cpu_utilisation_monitoring__average_cpu_utilisation_soak.py"
+      }
+    ],
+    "Spike Testing": [
+      {
+        "classification": "Traffic Surge Handling",
+        "metric": "Spike Recovery Time (s)",
+        "primary_tool": "K6",
+        "secondary_tool": "JMeter",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "spike_testing",
+        "module": "traffic_surge_handling__spike_recovery_time_s.py"
+      },
+      {
+        "classification": "Error Rate During Spike",
+        "metric": "Spike Error Rate %",
+        "primary_tool": "K6",
+        "secondary_tool": "JMeter",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "spike_testing",
+        "module": "error_rate_during_spike__spike_error_rate.py"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "module": "soak_testing__memory_leak_score.py",
+    "classification": "Soak Testing",
+    "metric": "Memory Leak Score",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Endurance Testing"
+  }
+]

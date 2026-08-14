@@ -1,0 +1,10 @@
+[
+  {
+    "module": "cpu_utilisation_monitoring__average_cpu_utilisation_soak.py",
+    "classification": "CPU Utilisation Monitoring",
+    "metric": "Average CPU Utilisation % (Soak)",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Soak Testing"
+  }
+]
