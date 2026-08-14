@@ -1,0 +1,94 @@
+{
+  "l2_testing_type": "Test Regression/Coverage Analysis",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "Coverage Delta": [
+      {
+        "classification": "Regression Testing Monitoring",
+        "metric": "Coverage Delta %",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coveragepy",
+        "sheet": "White Box",
+        "technique_slug": "coverage_delta",
+        "module": "regression_testing_monitoring__coverage_delta.py"
+      },
+      {
+        "classification": "Test Suite Effectiveness Tracking",
+        "metric": "Discovery Power Assessment",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coveragepy",
+        "sheet": "White Box",
+        "technique_slug": "coverage_delta",
+        "module": "test_suite_effectiveness_tracking__discovery_power_assessment.py"
+      },
+      {
+        "classification": "CI/CD Quality Gate Enforcement",
+        "metric": "Deployment Readiness Guard",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coveragepy",
+        "sheet": "White Box",
+        "technique_slug": "coverage_delta",
+        "module": "cicd_quality_gate_enforcement__deployment_readiness_guard.py"
+      },
+      {
+        "classification": "Change Impact Analysis",
+        "metric": "Ripple Effect Mapping",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coveragepy",
+        "sheet": "White Box",
+        "technique_slug": "coverage_delta",
+        "module": "change_impact_analysis__ripple_effect_mapping.py"
+      },
+      {
+        "classification": "New Code Testing Validation",
+        "metric": "Fresh Logic Proofing",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coveragepy",
+        "sheet": "White Box",
+        "technique_slug": "coverage_delta",
+        "module": "new_code_testing_validation__fresh_logic_proofing.py"
+      },
+      {
+        "classification": "Quality Improvement Measurement",
+        "metric": "Structural Health Benchmarking",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coveragepy",
+        "sheet": "White Box",
+        "technique_slug": "coverage_delta",
+        "module": "quality_improvement_measurement__structural_health_benchmarking.py"
+      }
+    ]
+  }
+}

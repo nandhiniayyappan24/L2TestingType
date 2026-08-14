@@ -1,0 +1,50 @@
+[
+  {
+    "module": "regression_testing_monitoring__coverage_delta.py",
+    "classification": "Regression Testing Monitoring",
+    "metric": "Coverage Delta %",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Coverage Delta"
+  },
+  {
+    "module": "test_suite_effectiveness_tracking__discovery_power_assessment.py",
+    "classification": "Test Suite Effectiveness Tracking",
+    "metric": "Discovery Power Assessment",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Coverage Delta"
+  },
+  {
+    "module": "cicd_quality_gate_enforcement__deployment_readiness_guard.py",
+    "classification": "CI/CD Quality Gate Enforcement",
+    "metric": "Deployment Readiness Guard",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Coverage Delta"
+  },
+  {
+    "module": "change_impact_analysis__ripple_effect_mapping.py",
+    "classification": "Change Impact Analysis",
+    "metric": "Ripple Effect Mapping",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Coverage Delta"
+  },
+  {
+    "module": "new_code_testing_validation__fresh_logic_proofing.py",
+    "classification": "New Code Testing Validation",
+    "metric": "Fresh Logic Proofing",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Coverage Delta"
+  },
+  {
+    "module": "quality_improvement_measurement__structural_health_benchmarking.py",
+    "classification": "Quality Improvement Measurement",
+    "metric": "Structural Health Benchmarking",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Coverage Delta"
+  }
+]
