@@ -1,0 +1,26 @@
+[
+  {
+    "module": "p95_latency_testing__p95_response_time_ms.py",
+    "classification": "p95 Latency Testing",
+    "metric": "p95 Response Time (ms)",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Latency Consistency"
+  },
+  {
+    "module": "p99_latency_testing__p99_response_time_ms.py",
+    "classification": "p99 Latency Testing",
+    "metric": "p99 Response Time (ms)",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Latency Consistency"
+  },
+  {
+    "module": "mean_response_time_monitoring__mean_response_time_ms.py",
+    "classification": "Mean Response Time Monitoring",
+    "metric": "Mean Response Time (ms)",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Latency Consistency"
+  }
+]

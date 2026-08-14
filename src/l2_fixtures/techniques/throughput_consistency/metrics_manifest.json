@@ -1,0 +1,10 @@
+[
+  {
+    "module": "request_success_rate__successful_request_rate.py",
+    "classification": "Request Success Rate",
+    "metric": "Successful Request Rate %",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Throughput Consistency"
+  }
+]

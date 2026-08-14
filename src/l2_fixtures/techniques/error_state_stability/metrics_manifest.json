@@ -1,0 +1,10 @@
+[
+  {
+    "module": "error_rate_monitoring__4xx5xx_error_rate.py",
+    "classification": "Error Rate Monitoring",
+    "metric": "4xx/5xx Error Rate %",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Error State Stability"
+  }
+]
