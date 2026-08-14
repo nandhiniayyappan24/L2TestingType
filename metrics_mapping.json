@@ -1,0 +1,87 @@
+{
+  "l2_testing_type": "OWASP Testing",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "DAST \u2014 Dynamic Application Security Testing": [
+      {
+        "classification": "OWASP Top 10 Vulnerability Scan",
+        "metric": "OWASP High/Critical Finding Count",
+        "primary_tool": "OWASP ZAP",
+        "secondary_tool": "Nikto",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "dast_dynamic_application_security_testing",
+        "module": "owasp_top_10_vulnerability_scan__owasp_highcritical_finding_count.py"
+      },
+      {
+        "classification": "SQL Injection Testing",
+        "metric": "SQLi Vulnerability Count",
+        "primary_tool": "OWASP ZAP",
+        "secondary_tool": "Nikto",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "dast_dynamic_application_security_testing",
+        "module": "sql_injection_testing__sqli_vulnerability_count.py"
+      },
+      {
+        "classification": "XSS Testing",
+        "metric": "XSS Vulnerability Count",
+        "primary_tool": "OWASP ZAP",
+        "secondary_tool": "Nikto",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "dast_dynamic_application_security_testing",
+        "module": "xss_testing__xss_vulnerability_count.py"
+      },
+      {
+        "classification": "Server-Side Request Forgery (SSRF) Testing",
+        "metric": "SSRF Vulnerability Count",
+        "primary_tool": "OWASP ZAP",
+        "secondary_tool": "Burp Suite Community",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "dast_dynamic_application_security_testing",
+        "module": "server_side_request_forgery_ssrf_testing__ssrf_vulnerability_count.py"
+      }
+    ],
+    "Authentication & Authorization Testing": [
+      {
+        "classification": "Broken Access Control Testing",
+        "metric": "Unauthorized Access Count",
+        "primary_tool": "OWASP ZAP",
+        "secondary_tool": "Semgrep OSS",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "authentication_authorization_testing",
+        "module": "broken_access_control_testing__unauthorized_access_count.py"
+      }
+    ]
+  }
+}

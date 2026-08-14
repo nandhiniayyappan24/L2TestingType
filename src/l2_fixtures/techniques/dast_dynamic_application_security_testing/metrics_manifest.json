@@ -1,0 +1,34 @@
+[
+  {
+    "module": "owasp_top_10_vulnerability_scan__owasp_highcritical_finding_count.py",
+    "classification": "OWASP Top 10 Vulnerability Scan",
+    "metric": "OWASP High/Critical Finding Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "DAST \u2014 Dynamic Application Security Testing"
+  },
+  {
+    "module": "sql_injection_testing__sqli_vulnerability_count.py",
+    "classification": "SQL Injection Testing",
+    "metric": "SQLi Vulnerability Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "DAST \u2014 Dynamic Application Security Testing"
+  },
+  {
+    "module": "xss_testing__xss_vulnerability_count.py",
+    "classification": "XSS Testing",
+    "metric": "XSS Vulnerability Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "DAST \u2014 Dynamic Application Security Testing"
+  },
+  {
+    "module": "server_side_request_forgery_ssrf_testing__ssrf_vulnerability_count.py",
+    "classification": "Server-Side Request Forgery (SSRF) Testing",
+    "metric": "SSRF Vulnerability Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "DAST \u2014 Dynamic Application Security Testing"
+  }
+]

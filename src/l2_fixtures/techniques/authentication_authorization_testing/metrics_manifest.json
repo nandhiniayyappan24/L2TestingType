@@ -1,0 +1,10 @@
+[
+  {
+    "module": "broken_access_control_testing__unauthorized_access_count.py",
+    "classification": "Broken Access Control Testing",
+    "metric": "Unauthorized Access Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Authentication & Authorization Testing"
+  }
+]
