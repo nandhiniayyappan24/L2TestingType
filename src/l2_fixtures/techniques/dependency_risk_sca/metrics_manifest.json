@@ -1,0 +1,66 @@
+[
+  {
+    "module": "transitive_dependency_analysis__hidden_relationship_mapping.py",
+    "classification": "Transitive Dependency Analysis",
+    "metric": "Hidden Relationship Mapping",
+    "primary_tool": "pip-audit",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Dependency Risk (SCA)"
+  },
+  {
+    "module": "license_compliance_testing__legal_risk_validation.py",
+    "classification": "License Compliance Testing",
+    "metric": "Legal Risk Validation",
+    "primary_tool": "pip-audit",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Dependency Risk (SCA)"
+  },
+  {
+    "module": "supply_chain_security_analysis__trust_integrity_verification.py",
+    "classification": "Supply Chain Security Analysis",
+    "metric": "Trust Integrity Verification",
+    "primary_tool": "pip-audit",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Dependency Risk (SCA)"
+  },
+  {
+    "module": "dependency_health_monitoring__community_vitality_tracking.py",
+    "classification": "Dependency Health Monitoring",
+    "metric": "Community Vitality Tracking",
+    "primary_tool": "pip-audit",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Dependency Risk (SCA)"
+  },
+  {
+    "module": "risk_prioritization__mitigation_effort_ranking.py",
+    "classification": "Risk Prioritization",
+    "metric": "Mitigation Effort Ranking",
+    "primary_tool": "pip-audit",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Dependency Risk (SCA)"
+  },
+  {
+    "module": "continuous_dependency_monitoring__real_time_alerting.py",
+    "classification": "Continuous Dependency Monitoring",
+    "metric": "Real-Time Alerting",
+    "primary_tool": "pip-audit",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Dependency Risk (SCA)"
+  },
+  {
+    "module": "vulnerability_dependency_detection__known_cve_count.py",
+    "classification": "Vulnerability Dependency Detection",
+    "metric": "Known CVE Count",
+    "primary_tool": "pip-audit",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Dependency Risk (SCA)"
+  },
+  {
+    "module": "outdated_dependency_detection__version_lag_assessment.py",
+    "classification": "Outdated Dependency Detection",
+    "metric": "Version Lag Assessment",
+    "primary_tool": "pip-audit",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Dependency Risk (SCA)"
+  }
+]

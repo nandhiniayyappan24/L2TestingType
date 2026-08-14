@@ -1,0 +1,58 @@
+[
+  {
+    "module": "secure_coding_validation__best_practice_compliance.py",
+    "classification": "Secure Coding Validation",
+    "metric": "Best Practice Compliance",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Static Vulnerabilities (SAST)"
+  },
+  {
+    "module": "input_validation_testing__entry_point_sanitization.py",
+    "classification": "Input Validation Testing",
+    "metric": "Entry Point Sanitization",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Static Vulnerabilities (SAST)"
+  },
+  {
+    "module": "data_flow_security_analysis__sensitive_information_tracking.py",
+    "classification": "Data Flow Security Analysis",
+    "metric": "Sensitive Information Tracking",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Static Vulnerabilities (SAST)"
+  },
+  {
+    "module": "authentication_authorization_weakness_detection__access_control_verification.py",
+    "classification": "Authentication & Authorization Weakness Detection",
+    "metric": "Access Control Verification",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Static Vulnerabilities (SAST)"
+  },
+  {
+    "module": "dependency_library_vulnerability_detection__supply_chain_security.py",
+    "classification": "Dependency & Library Vulnerability Detection",
+    "metric": "Supply Chain Security",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Static Vulnerabilities (SAST)"
+  },
+  {
+    "module": "compliance_security_standard_validation__regulatory_alignment.py",
+    "classification": "Compliance & Security Standard Validation",
+    "metric": "Regulatory Alignment",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Static Vulnerabilities (SAST)"
+  },
+  {
+    "module": "security_vulnerability_detection__exploit_surface_identification.py",
+    "classification": "Security Vulnerability Detection",
+    "metric": "Exploit Surface Identification",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Static Vulnerabilities (SAST)"
+  }
+]
