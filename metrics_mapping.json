@@ -1,0 +1,186 @@
+{
+  "l2_testing_type": "Data Flow Testing",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "All Definition Coverage": [
+      {
+        "classification": "Variable Definition Detection",
+        "metric": "All-Defs Coverage %",
+        "primary_tool": "Beniget",
+        "secondary_tool": "pyflakes",
+        "sheet": "White Box",
+        "technique_slug": "all_definition_coverage",
+        "module": "variable_definition_detection__all_defs_coverage.py"
+      },
+      {
+        "classification": "Definition-Use Mapping",
+        "metric": "Data Path Correlation",
+        "primary_tool": "coverage.py",
+        "secondary_tool": "pyflakes",
+        "sheet": "White Box",
+        "technique_slug": "all_definition_coverage",
+        "module": "definition_use_mapping__data_path_correlation.py"
+      },
+      {
+        "classification": "Coverage Measurement",
+        "metric": "DU-Path Validation",
+        "primary_tool": "Beniget",
+        "secondary_tool": "pyflakes",
+        "sheet": "White Box",
+        "technique_slug": "all_definition_coverage",
+        "module": "coverage_measurement__du_path_validation.py"
+      },
+      {
+        "classification": "Uncovered Definition Detection",
+        "metric": "Dead Data Identification",
+        "primary_tool": "pylint",
+        "secondary_tool": "pyflakes",
+        "sheet": "White Box",
+        "technique_slug": "all_definition_coverage",
+        "module": "uncovered_definition_detection__dead_data_identification.py"
+      },
+      {
+        "classification": "Edge Case Handling",
+        "metric": "Null and Boundary Flow Analysis",
+        "primary_tool": "CrossHair",
+        "secondary_tool": "pyflakes",
+        "sheet": "White Box",
+        "technique_slug": "all_definition_coverage",
+        "module": "edge_case_handling__null_and_boundary_flow_analysis.py"
+      },
+      {
+        "classification": "Reporting Validation",
+        "metric": "Audit Trail Verification",
+        "primary_tool": "pydriller",
+        "secondary_tool": "pyflakes",
+        "sheet": "White Box",
+        "technique_slug": "all_definition_coverage",
+        "module": "reporting_validation__audit_trail_verification.py"
+      }
+    ],
+    "All Uses Coverage": [
+      {
+        "classification": "Computational Use Detection (C-Use)",
+        "metric": "Data Processing Validation",
+        "primary_tool": "coverage.py + beniget",
+        "secondary_tool": "all_uses",
+        "sheet": "White Box",
+        "technique_slug": "all_uses_coverage",
+        "module": "computational_use_detection_c_use__data_processing_validation.py"
+      },
+      {
+        "classification": "Predicate Use Detection (P-Use)",
+        "metric": "Logic Influence Assessment",
+        "primary_tool": "coverage.py + beniget",
+        "secondary_tool": "all_uses",
+        "sheet": "White Box",
+        "technique_slug": "all_uses_coverage",
+        "module": "predicate_use_detection_p_use__logic_influence_assessment.py"
+      },
+      {
+        "classification": "Definition-Use Pair Identification",
+        "metric": "Path Correlation Mapping",
+        "primary_tool": "coverage.py + beniget",
+        "secondary_tool": "all_uses",
+        "sheet": "White Box",
+        "technique_slug": "all_uses_coverage",
+        "module": "definition_use_pair_identification__path_correlation_mapping.py"
+      },
+      {
+        "classification": "All-Uses Coverage Verification",
+        "metric": "Comprehensive Data Proofing",
+        "primary_tool": "coverage.py + beniget",
+        "secondary_tool": "all_uses",
+        "sheet": "White Box",
+        "technique_slug": "all_uses_coverage",
+        "module": "all_uses_coverage_verification__comprehensive_data_proofing.py"
+      },
+      {
+        "classification": "Partial Uses Coverage Detection",
+        "metric": "Data Flow Gap Analysis",
+        "primary_tool": "coverage.py + beniget",
+        "secondary_tool": "all_uses",
+        "sheet": "White Box",
+        "technique_slug": "all_uses_coverage",
+        "module": "partial_uses_coverage_detection__data_flow_gap_analysis.py"
+      },
+      {
+        "classification": "Multiple Definitions Handling",
+        "metric": "Ambiguity Resolution",
+        "primary_tool": "coverage.py + beniget",
+        "secondary_tool": "all_uses",
+        "sheet": "White Box",
+        "technique_slug": "all_uses_coverage",
+        "module": "multiple_definitions_handling__ambiguity_resolution.py"
+      },
+      {
+        "classification": "Cross-Function Use Detection",
+        "metric": "Inter-procedural Tracking",
+        "primary_tool": "coverage.py + beniget",
+        "secondary_tool": "all_uses",
+        "sheet": "White Box",
+        "technique_slug": "all_uses_coverage",
+        "module": "cross_function_use_detection__inter_procedural_tracking.py"
+      },
+      {
+        "classification": "Unreachable Use Detection",
+        "metric": "Ghost Use Identification",
+        "primary_tool": "coverage.py + beniget",
+        "secondary_tool": "all_uses",
+        "sheet": "White Box",
+        "technique_slug": "all_uses_coverage",
+        "module": "unreachable_use_detection__ghost_use_identification.py"
+      },
+      {
+        "classification": "Coverage Reporting Validation",
+        "metric": "Data Integrity Audit",
+        "primary_tool": "coverage.py + beniget",
+        "secondary_tool": "all_uses",
+        "sheet": "White Box",
+        "technique_slug": "all_uses_coverage",
+        "module": "coverage_reporting_validation__data_integrity_audit.py"
+      },
+      {
+        "classification": "Variable Use Detection",
+        "metric": "All-Uses Coverage %",
+        "primary_tool": "coverage.py + beniget",
+        "secondary_tool": "all_uses",
+        "sheet": "White Box",
+        "technique_slug": "all_uses_coverage",
+        "module": "variable_use_detection__all_uses_coverage.py"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "module": "variable_definition_detection__all_defs_coverage.py",
+    "classification": "Variable Definition Detection",
+    "metric": "All-Defs Coverage %",
+    "primary_tool": "beniget",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Definition Coverage"
+  },
+  {
+    "module": "definition_use_mapping__data_path_correlation.py",
+    "classification": "Definition-Use Mapping",
+    "metric": "Data Path Correlation",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Definition Coverage"
+  },
+  {
+    "module": "coverage_measurement__du_path_validation.py",
+    "classification": "Coverage Measurement",
+    "metric": "DU-Path Validation",
+    "primary_tool": "beniget",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Definition Coverage"
+  },
+  {
+    "module": "uncovered_definition_detection__dead_data_identification.py",
+    "classification": "Uncovered Definition Detection",
+    "metric": "Dead Data Identification",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Definition Coverage"
+  },
+  {
+    "module": "edge_case_handling__null_and_boundary_flow_analysis.py",
+    "classification": "Edge Case Handling",
+    "metric": "Null and Boundary Flow Analysis",
+    "primary_tool": "crosshair",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Definition Coverage"
+  },
+  {
+    "module": "reporting_validation__audit_trail_verification.py",
+    "classification": "Reporting Validation",
+    "metric": "Audit Trail Verification",
+    "primary_tool": "pydriller",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Definition Coverage"
+  }
+]

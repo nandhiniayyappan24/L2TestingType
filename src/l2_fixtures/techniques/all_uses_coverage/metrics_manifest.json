@@ -1,0 +1,82 @@
+[
+  {
+    "module": "computational_use_detection_c_use__data_processing_validation.py",
+    "classification": "Computational Use Detection (C-Use)",
+    "metric": "Data Processing Validation",
+    "primary_tool": "coverage.py + beniget",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Uses Coverage"
+  },
+  {
+    "module": "predicate_use_detection_p_use__logic_influence_assessment.py",
+    "classification": "Predicate Use Detection (P-Use)",
+    "metric": "Logic Influence Assessment",
+    "primary_tool": "coverage.py + beniget",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Uses Coverage"
+  },
+  {
+    "module": "definition_use_pair_identification__path_correlation_mapping.py",
+    "classification": "Definition-Use Pair Identification",
+    "metric": "Path Correlation Mapping",
+    "primary_tool": "coverage.py + beniget",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Uses Coverage"
+  },
+  {
+    "module": "all_uses_coverage_verification__comprehensive_data_proofing.py",
+    "classification": "All-Uses Coverage Verification",
+    "metric": "Comprehensive Data Proofing",
+    "primary_tool": "coverage.py + beniget",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Uses Coverage"
+  },
+  {
+    "module": "partial_uses_coverage_detection__data_flow_gap_analysis.py",
+    "classification": "Partial Uses Coverage Detection",
+    "metric": "Data Flow Gap Analysis",
+    "primary_tool": "coverage.py + beniget",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Uses Coverage"
+  },
+  {
+    "module": "multiple_definitions_handling__ambiguity_resolution.py",
+    "classification": "Multiple Definitions Handling",
+    "metric": "Ambiguity Resolution",
+    "primary_tool": "coverage.py + beniget",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Uses Coverage"
+  },
+  {
+    "module": "cross_function_use_detection__inter_procedural_tracking.py",
+    "classification": "Cross-Function Use Detection",
+    "metric": "Inter-procedural Tracking",
+    "primary_tool": "coverage.py + beniget",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Uses Coverage"
+  },
+  {
+    "module": "unreachable_use_detection__ghost_use_identification.py",
+    "classification": "Unreachable Use Detection",
+    "metric": "Ghost Use Identification",
+    "primary_tool": "coverage.py + beniget",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Uses Coverage"
+  },
+  {
+    "module": "coverage_reporting_validation__data_integrity_audit.py",
+    "classification": "Coverage Reporting Validation",
+    "metric": "Data Integrity Audit",
+    "primary_tool": "coverage.py + beniget",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Uses Coverage"
+  },
+  {
+    "module": "variable_use_detection__all_uses_coverage.py",
+    "classification": "Variable Use Detection",
+    "metric": "All-Uses Coverage %",
+    "primary_tool": "coverage.py + beniget",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "All Uses Coverage"
+  }
+]
