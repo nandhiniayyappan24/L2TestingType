@@ -1,0 +1,34 @@
+[
+  {
+    "module": "open_security_group_rule_detection__open_firewall_rule_count.py",
+    "classification": "Open Security Group Rule Detection",
+    "metric": "Open Firewall Rule Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "IaC Scanning"
+  },
+  {
+    "module": "unencrypted_storage_definition__unencrypted_storage_count.py",
+    "classification": "Unencrypted Storage Definition",
+    "metric": "Unencrypted Storage Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "IaC Scanning"
+  },
+  {
+    "module": "publicly_exposed_resource_detection__public_storage_bucket_count.py",
+    "classification": "Publicly Exposed Resource Detection",
+    "metric": "Public Storage Bucket Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "IaC Scanning"
+  },
+  {
+    "module": "cis_benchmark_compliance__cis_benchmark_violation_count.py",
+    "classification": "CIS Benchmark Compliance",
+    "metric": "CIS Benchmark Violation Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "IaC Scanning"
+  }
+]
