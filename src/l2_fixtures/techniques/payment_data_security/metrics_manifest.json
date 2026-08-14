@@ -1,0 +1,12 @@
+[
+  {
+    "module": "cardholder_data_exposure_scan__chd_exposure_finding_count.py",
+    "l2_testing_type": "PCI-DSS Compliance",
+    "classification": "Cardholder Data Exposure Scan",
+    "metric": "CHD Exposure Finding Count",
+    "excel_primary_tool": "OWASP ZAP",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Payment Data Security"
+  }
+]

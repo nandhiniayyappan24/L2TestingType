@@ -1,0 +1,12 @@
+[
+  {
+    "module": "security_header_validation__missing_security_header_count.py",
+    "l2_testing_type": "API Security",
+    "classification": "Security Header Validation",
+    "metric": "Missing Security Header Count",
+    "excel_primary_tool": "OWASP ZAP",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Transport Security"
+  }
+]

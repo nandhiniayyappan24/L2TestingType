@@ -1,0 +1,32 @@
+[
+  {
+    "module": "owasp_top_10_vulnerability_scan__owasp_highcritical_finding_count.py",
+    "l2_testing_type": "OWASP Testing",
+    "classification": "OWASP Top 10 Vulnerability Scan",
+    "metric": "OWASP High/Critical Finding Count",
+    "excel_primary_tool": "ZAP Attack Proxy (OWASP)",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "DAST \u2014 Dynamic Application Security Testing"
+  },
+  {
+    "module": "sql_injection_testing__sqli_vulnerability_count.py",
+    "l2_testing_type": "OWASP Testing",
+    "classification": "SQL Injection Testing",
+    "metric": "SQLi Vulnerability Count",
+    "excel_primary_tool": "ZAP Attack Proxy (OWASP)",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "DAST \u2014 Dynamic Application Security Testing"
+  },
+  {
+    "module": "xss_testing__xss_vulnerability_count.py",
+    "l2_testing_type": "OWASP Testing",
+    "classification": "XSS Testing",
+    "metric": "XSS Vulnerability Count",
+    "excel_primary_tool": "ZAP Attack Proxy (OWASP)",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "DAST \u2014 Dynamic Application Security Testing"
+  }
+]

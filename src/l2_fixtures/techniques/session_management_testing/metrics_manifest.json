@@ -1,0 +1,12 @@
+[
+  {
+    "module": "session_timeout_compliance__session_timeout_compliance_rate.py",
+    "l2_testing_type": "API Security",
+    "classification": "Session Timeout Compliance",
+    "metric": "Session Timeout Compliance Rate",
+    "excel_primary_tool": "Postman / Playwright",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Session Management Testing"
+  }
+]

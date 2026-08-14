@@ -1,0 +1,12 @@
+[
+  {
+    "module": "unauthenticated_endpoint_testing__unauthenticated_api_endpoint_count.py",
+    "l2_testing_type": "API Security",
+    "classification": "Unauthenticated Endpoint Testing",
+    "metric": "Unauthenticated API Endpoint Count",
+    "excel_primary_tool": "OWASP ZAP / 42Crunch",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "API Endpoint Validation"
+  }
+]

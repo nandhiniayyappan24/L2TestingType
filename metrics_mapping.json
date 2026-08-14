@@ -1,0 +1,224 @@
+{
+  "excel_sheet": "Compliance URL (API Service)",
+  "branch": "Compliance-URL-API-Service",
+  "enterprise_python_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.1",
+    "coverage.py + beniget": "3.1",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.1",
+    "pydriller": "3.6",
+    "pylint": "3.1",
+    "pymcdc": "3.1",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.1",
+    "testmon": "3.1"
+  },
+  "technique_count": 15,
+  "metric_count": 17,
+  "techniques": {
+    "DAST \u2014 Dynamic Application Security Testing": [
+      {
+        "l2_testing_type": "OWASP Testing",
+        "classification": "OWASP Top 10 Vulnerability Scan",
+        "metric": "OWASP High/Critical Finding Count",
+        "primary_tool": "ZAP Attack Proxy (OWASP)",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "dast_dynamic_application_security_testing",
+        "module": "owasp_top_10_vulnerability_scan__owasp_highcritical_finding_count.py"
+      },
+      {
+        "l2_testing_type": "OWASP Testing",
+        "classification": "SQL Injection Testing",
+        "metric": "SQLi Vulnerability Count",
+        "primary_tool": "ZAP Attack Proxy (OWASP)",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "dast_dynamic_application_security_testing",
+        "module": "sql_injection_testing__sqli_vulnerability_count.py"
+      },
+      {
+        "l2_testing_type": "OWASP Testing",
+        "classification": "XSS Testing",
+        "metric": "XSS Vulnerability Count",
+        "primary_tool": "ZAP Attack Proxy (OWASP)",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "dast_dynamic_application_security_testing",
+        "module": "xss_testing__xss_vulnerability_count.py"
+      }
+    ],
+    "Authentication & Authorization Testing": [
+      {
+        "l2_testing_type": "OWASP Testing",
+        "classification": "Broken Access Control Testing",
+        "metric": "Unauthorized Access Count",
+        "primary_tool": "ZAP Attack Proxy (OWASP)",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "authentication_authorization_testing",
+        "module": "broken_access_control_testing__unauthorized_access_count.py"
+      }
+    ],
+    "Payment Data Security": [
+      {
+        "l2_testing_type": "PCI-DSS Compliance",
+        "classification": "Cardholder Data Exposure Scan",
+        "metric": "CHD Exposure Finding Count",
+        "primary_tool": "OWASP ZAP",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "payment_data_security",
+        "module": "cardholder_data_exposure_scan__chd_exposure_finding_count.py"
+      }
+    ],
+    "TLS/Encryption Compliance": [
+      {
+        "l2_testing_type": "PCI-DSS Compliance",
+        "classification": "TLS Configuration Testing",
+        "metric": "Weak TLS Config Count",
+        "primary_tool": "testssl.sh (OSS)",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "tlsencryption_compliance",
+        "module": "tls_configuration_testing__weak_tls_config_count.py"
+      }
+    ],
+    "Consent & Age-Gate Compliance": [
+      {
+        "l2_testing_type": "GDPR Compliance",
+        "classification": "COPPA Age Verification Testing",
+        "metric": "Age-Gate Bypass Count",
+        "primary_tool": "Playwright",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "consent_age_gate_compliance",
+        "module": "coppa_age_verification_testing__age_gate_bypass_count.py"
+      }
+    ],
+    "Data Subject Rights Testing": [
+      {
+        "l2_testing_type": "GDPR Compliance",
+        "classification": "Right-to-Erasure Testing",
+        "metric": "Data Deletion Verification Rate",
+        "primary_tool": "Postman",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "data_subject_rights_testing",
+        "module": "right_to_erasure_testing__data_deletion_verification_rate.py"
+      }
+    ],
+    "Cookie & Consent Testing": [
+      {
+        "l2_testing_type": "GDPR Compliance",
+        "classification": "Cookie Consent Compliance",
+        "metric": "Non-Consented Tracker Count",
+        "primary_tool": "OneTrust Cookie Consent",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "cookie_consent_testing",
+        "module": "cookie_consent_compliance__non_consented_tracker_count.py"
+      }
+    ],
+    "API Endpoint Validation": [
+      {
+        "l2_testing_type": "API Security",
+        "classification": "Unauthenticated Endpoint Testing",
+        "metric": "Unauthenticated API Endpoint Count",
+        "primary_tool": "OWASP ZAP / 42Crunch",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "api_endpoint_validation",
+        "module": "unauthenticated_endpoint_testing__unauthenticated_api_endpoint_count.py"
+      }
+    ],
+    "Authorization Testing": [
+      {
+        "l2_testing_type": "API Security",
+        "classification": "BOLA / IDOR Testing",
+        "metric": "BOLA Finding Count",
+        "primary_tool": "Postman / ZAP",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "authorization_testing",
+        "module": "bola_idor_testing__bola_finding_count.py"
+      }
+    ],
+    "Rate Limiting Compliance": [
+      {
+        "l2_testing_type": "API Security",
+        "classification": "Rate Limit Enforcement Testing",
+        "metric": "APIs Without Rate Limiting Count",
+        "primary_tool": "Postman / Newman",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "rate_limiting_compliance",
+        "module": "rate_limit_enforcement_testing__apis_without_rate_limiting_count.py"
+      }
+    ],
+    "Transport Security": [
+      {
+        "l2_testing_type": "API Security",
+        "classification": "Security Header Validation",
+        "metric": "Missing Security Header Count",
+        "primary_tool": "OWASP ZAP",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "transport_security",
+        "module": "security_header_validation__missing_security_header_count.py"
+      }
+    ],
+    "PII in API Responses": [
+      {
+        "l2_testing_type": "API Security",
+        "classification": "PII Exposure in Live Responses",
+        "metric": "PII in API Response Count",
+        "primary_tool": "Presidio + mitmproxy",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "pii_in_api_responses",
+        "module": "pii_exposure_in_live_responses__pii_in_api_response_count.py"
+      }
+    ],
+    "Session Management Testing": [
+      {
+        "l2_testing_type": "API Security",
+        "classification": "Session Timeout Compliance",
+        "metric": "Session Timeout Compliance Rate",
+        "primary_tool": "Postman / Playwright",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "session_management_testing",
+        "module": "session_timeout_compliance__session_timeout_compliance_rate.py"
+      }
+    ],
+    "Audit Evidence Completeness": [
+      {
+        "l2_testing_type": "SOC 2 Compliance",
+        "classification": "SOC 2 Evidence Collection Rate",
+        "metric": "Evidence Collection Rate %",
+        "primary_tool": "Drata",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "audit_evidence_completeness",
+        "module": "soc_2_evidence_collection_rate__evidence_collection_rate.py"
+      }
+    ],
+    "Change Management Testing": [
+      {
+        "l2_testing_type": "SOC 2 Compliance",
+        "classification": "Change Control Verification",
+        "metric": "Unreviewed Change Count",
+        "primary_tool": "GitHub (branch protection API)",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "change_management_testing",
+        "module": "change_control_verification__unreviewed_change_count.py"
+      }
+    ]
+  }
+}

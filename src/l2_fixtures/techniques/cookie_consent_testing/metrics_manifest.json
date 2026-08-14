@@ -1,0 +1,12 @@
+[
+  {
+    "module": "cookie_consent_compliance__non_consented_tracker_count.py",
+    "l2_testing_type": "GDPR Compliance",
+    "classification": "Cookie Consent Compliance",
+    "metric": "Non-Consented Tracker Count",
+    "excel_primary_tool": "OneTrust Cookie Consent",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Cookie & Consent Testing"
+  }
+]
