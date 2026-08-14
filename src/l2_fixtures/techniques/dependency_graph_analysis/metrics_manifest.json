@@ -1,0 +1,10 @@
+[
+  {
+    "module": "circular_dependency_detection__circular_dependency_count.py",
+    "classification": "Circular Dependency Detection",
+    "metric": "Circular Dependency Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Dependency Graph Analysis"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "module": "unused_dependency_detection__unused_import_count.py",
+    "classification": "Unused Dependency Detection",
+    "metric": "Unused Import Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Bundle Size Analysis"
+  }
+]

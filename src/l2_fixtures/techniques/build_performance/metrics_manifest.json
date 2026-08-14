@@ -1,0 +1,10 @@
+[
+  {
+    "module": "build_time_regression__build_duration_seconds.py",
+    "classification": "Build Time Regression",
+    "metric": "Build Duration (seconds)",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Build Performance"
+  }
+]
