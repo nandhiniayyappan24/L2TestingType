@@ -1,0 +1,58 @@
+[
+  {
+    "module": "maintainability_evaluation__technical_debt_impact.py",
+    "classification": "Maintainability Evaluation",
+    "metric": "Technical Debt Impact",
+    "primary_tool": "cognitive-ast",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cognitive Complexity"
+  },
+  {
+    "module": "testability_analysis__unit_test_complexity.py",
+    "classification": "Testability Analysis",
+    "metric": "Unit Test Complexity",
+    "primary_tool": "cognitive-ast",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cognitive Complexity"
+  },
+  {
+    "module": "risk_detection__defect_probability.py",
+    "classification": "Risk Detection",
+    "metric": "Defect Probability",
+    "primary_tool": "cognitive-ast",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cognitive Complexity"
+  },
+  {
+    "module": "refactoring_guidance__modularization_opportunity.py",
+    "classification": "Refactoring Guidance",
+    "metric": "Modularization Opportunity",
+    "primary_tool": "cognitive-ast",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cognitive Complexity"
+  },
+  {
+    "module": "code_review_support__reviewer_fatigue_factor.py",
+    "classification": "Code Review Support",
+    "metric": "Reviewer Fatigue Factor",
+    "primary_tool": "cognitive-ast",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cognitive Complexity"
+  },
+  {
+    "module": "testing_effort_prioritization__qa_resource_allocation.py",
+    "classification": "Testing Effort Prioritization",
+    "metric": "QA Resource Allocation",
+    "primary_tool": "cognitive-ast",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cognitive Complexity"
+  },
+  {
+    "module": "code_understandability_analysis__human_cognitive_load.py",
+    "classification": "Code Understandability Analysis",
+    "metric": "Human Cognitive Load",
+    "primary_tool": "cognitive-ast",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cognitive Complexity"
+  }
+]

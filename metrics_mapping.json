@@ -1,0 +1,103 @@
+{
+  "l2_testing_type": "Readability / Maintainability",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "Cognitive Complexity": [
+      {
+        "classification": "Maintainability Evaluation",
+        "metric": "Technical Debt Impact",
+        "primary_tool": "cognitive-ast",
+        "secondary_tool": "radon_cc",
+        "sheet": "White Box",
+        "technique_slug": "cognitive_complexity",
+        "module": "maintainability_evaluation__technical_debt_impact.py"
+      },
+      {
+        "classification": "Testability Analysis",
+        "metric": "Unit Test Complexity",
+        "primary_tool": "cognitive-ast",
+        "secondary_tool": "radon_cc",
+        "sheet": "White Box",
+        "technique_slug": "cognitive_complexity",
+        "module": "testability_analysis__unit_test_complexity.py"
+      },
+      {
+        "classification": "Risk Detection",
+        "metric": "Defect Probability",
+        "primary_tool": "cognitive-ast",
+        "secondary_tool": "radon_cc",
+        "sheet": "White Box",
+        "technique_slug": "cognitive_complexity",
+        "module": "risk_detection__defect_probability.py"
+      },
+      {
+        "classification": "Refactoring Guidance",
+        "metric": "Modularization Opportunity",
+        "primary_tool": "cognitive-ast",
+        "secondary_tool": "radon_cc",
+        "sheet": "White Box",
+        "technique_slug": "cognitive_complexity",
+        "module": "refactoring_guidance__modularization_opportunity.py"
+      },
+      {
+        "classification": "Code Review Support",
+        "metric": "Reviewer Fatigue Factor",
+        "primary_tool": "cognitive-ast",
+        "secondary_tool": "radon_cc",
+        "sheet": "White Box",
+        "technique_slug": "cognitive_complexity",
+        "module": "code_review_support__reviewer_fatigue_factor.py"
+      },
+      {
+        "classification": "Testing Effort Prioritization",
+        "metric": "QA Resource Allocation",
+        "primary_tool": "cognitive-ast",
+        "secondary_tool": "radon_cc",
+        "sheet": "White Box",
+        "technique_slug": "cognitive_complexity",
+        "module": "testing_effort_prioritization__qa_resource_allocation.py"
+      },
+      {
+        "classification": "Code Understandability Analysis",
+        "metric": "Human Cognitive Load",
+        "primary_tool": "cognitive-ast",
+        "secondary_tool": "radon_cc",
+        "sheet": "White Box",
+        "technique_slug": "cognitive_complexity",
+        "module": "code_understandability_analysis__human_cognitive_load.py"
+      }
+    ]
+  }
+}
