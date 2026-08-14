@@ -1,0 +1,103 @@
+{
+  "l2_testing_type": "Code Quality Auditing",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "Code Duplication": [
+      {
+        "classification": "Defect Propagation Risk Detection",
+        "metric": "Multi-Point Failure Probability",
+        "primary_tool": "jscpd",
+        "secondary_tool": "copydetect",
+        "sheet": "White Box",
+        "technique_slug": "code_duplication",
+        "module": "defect_propagation_risk_detection__multi_point_failure_probability.py"
+      },
+      {
+        "classification": "Refactoring Identification",
+        "metric": "Redundancy Localization",
+        "primary_tool": "jscpd",
+        "secondary_tool": "copydetect",
+        "sheet": "White Box",
+        "technique_slug": "code_duplication",
+        "module": "refactoring_identification__redundancy_localization.py"
+      },
+      {
+        "classification": "Code Quality Assessment",
+        "metric": "Structural Cleanliness Score",
+        "primary_tool": "jscpd",
+        "secondary_tool": "copydetect",
+        "sheet": "White Box",
+        "technique_slug": "code_duplication",
+        "module": "code_quality_assessment__structural_cleanliness_score.py"
+      },
+      {
+        "classification": "Test Maintenance Reduction",
+        "metric": "Test Suite Streamlining",
+        "primary_tool": "jscpd",
+        "secondary_tool": "copydetect",
+        "sheet": "White Box",
+        "technique_slug": "code_duplication",
+        "module": "test_maintenance_reduction__test_suite_streamlining.py"
+      },
+      {
+        "classification": "Refactoring Opportunity Detection",
+        "metric": "Abstraction Potential",
+        "primary_tool": "jscpd",
+        "secondary_tool": "copydetect",
+        "sheet": "White Box",
+        "technique_slug": "code_duplication",
+        "module": "refactoring_opportunity_detection__abstraction_potential.py"
+      },
+      {
+        "classification": "Risk-Based Testing Prioritization",
+        "metric": "Regression Focus Mapping",
+        "primary_tool": "jscpd",
+        "secondary_tool": "copydetect",
+        "sheet": "White Box",
+        "technique_slug": "code_duplication",
+        "module": "risk_based_testing_prioritization__regression_focus_mapping.py"
+      },
+      {
+        "classification": "Maintainability Testing",
+        "metric": "Synchronization Verification",
+        "primary_tool": "jscpd",
+        "secondary_tool": "copydetect",
+        "sheet": "White Box",
+        "technique_slug": "code_duplication",
+        "module": "maintainability_testing__synchronization_verification.py"
+      }
+    ]
+  }
+}

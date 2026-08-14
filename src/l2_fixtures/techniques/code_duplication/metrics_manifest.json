@@ -1,0 +1,58 @@
+[
+  {
+    "module": "defect_propagation_risk_detection__multi_point_failure_probability.py",
+    "classification": "Defect Propagation Risk Detection",
+    "metric": "Multi-Point Failure Probability",
+    "primary_tool": "jscpd",
+    "secondary_tool": "symilar (pylint)",
+    "technique_display_name": "Code Duplication"
+  },
+  {
+    "module": "refactoring_identification__redundancy_localization.py",
+    "classification": "Refactoring Identification",
+    "metric": "Redundancy Localization",
+    "primary_tool": "jscpd",
+    "secondary_tool": "symilar (pylint)",
+    "technique_display_name": "Code Duplication"
+  },
+  {
+    "module": "code_quality_assessment__structural_cleanliness_score.py",
+    "classification": "Code Quality Assessment",
+    "metric": "Structural Cleanliness Score",
+    "primary_tool": "jscpd",
+    "secondary_tool": "symilar (pylint)",
+    "technique_display_name": "Code Duplication"
+  },
+  {
+    "module": "test_maintenance_reduction__test_suite_streamlining.py",
+    "classification": "Test Maintenance Reduction",
+    "metric": "Test Suite Streamlining",
+    "primary_tool": "jscpd",
+    "secondary_tool": "symilar (pylint)",
+    "technique_display_name": "Code Duplication"
+  },
+  {
+    "module": "refactoring_opportunity_detection__abstraction_potential.py",
+    "classification": "Refactoring Opportunity Detection",
+    "metric": "Abstraction Potential",
+    "primary_tool": "jscpd",
+    "secondary_tool": "symilar (pylint)",
+    "technique_display_name": "Code Duplication"
+  },
+  {
+    "module": "risk_based_testing_prioritization__regression_focus_mapping.py",
+    "classification": "Risk-Based Testing Prioritization",
+    "metric": "Regression Focus Mapping",
+    "primary_tool": "jscpd",
+    "secondary_tool": "symilar (pylint)",
+    "technique_display_name": "Code Duplication"
+  },
+  {
+    "module": "maintainability_testing__synchronization_verification.py",
+    "classification": "Maintainability Testing",
+    "metric": "Synchronization Verification",
+    "primary_tool": "jscpd",
+    "secondary_tool": "symilar (pylint)",
+    "technique_display_name": "Code Duplication"
+  }
+]
