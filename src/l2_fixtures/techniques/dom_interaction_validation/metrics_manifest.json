@@ -1,0 +1,10 @@
+[
+  {
+    "module": "element_interaction_testing__interaction_success_rate.py",
+    "classification": "Element Interaction Testing",
+    "metric": "Interaction Success Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "DOM & Interaction Validation"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "module": "screenshot_comparison__visual_regression_failure_rate.py",
+    "classification": "Screenshot Comparison",
+    "metric": "Visual Regression Failure Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Visual Regression Testing"
+  }
+]
