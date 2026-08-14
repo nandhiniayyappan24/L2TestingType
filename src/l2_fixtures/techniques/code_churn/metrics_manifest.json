@@ -1,0 +1,42 @@
+[
+  {
+    "module": "risk_based_testing_prioritization__code_churn_score.py",
+    "classification": "Risk-Based Testing Prioritization",
+    "metric": "Code Churn Score",
+    "primary_tool": "pydriller",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Code Churn"
+  },
+  {
+    "module": "regression_testing_focus__impact_driven_verification.py",
+    "classification": "Regression Testing Focus",
+    "metric": "Impact-Driven Verification",
+    "primary_tool": "pydriller",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Code Churn"
+  },
+  {
+    "module": "defect_prediction__fault_probability_modeling.py",
+    "classification": "Defect Prediction",
+    "metric": "Fault Probability Modeling",
+    "primary_tool": "pydriller",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Code Churn"
+  },
+  {
+    "module": "test_case_maintenance_identification__validation_suite_updates.py",
+    "classification": "Test Case Maintenance Identification",
+    "metric": "Validation Suite Updates",
+    "primary_tool": "pydriller",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Code Churn"
+  },
+  {
+    "module": "change_impact_analysis__side_effect_mapping.py",
+    "classification": "Change Impact Analysis",
+    "metric": "Side Effect Mapping",
+    "primary_tool": "pydriller",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Code Churn"
+  }
+]
