@@ -1,0 +1,10 @@
+[
+  {
+    "module": "coppa_age_verification_testing__age_gate_bypass_count.py",
+    "classification": "COPPA Age Verification Testing",
+    "metric": "Age-Gate Bypass Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Consent & Age-Gate Compliance"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "module": "right_to_erasure_testing__data_deletion_verification_rate.py",
+    "classification": "Right-to-Erasure Testing",
+    "metric": "Data Deletion Verification Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Data Subject Rights Testing"
+  }
+]

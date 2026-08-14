@@ -1,0 +1,82 @@
+{
+  "l2_testing_type": "GDPR Compliance",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "PII in API Responses": [
+      {
+        "classification": "PII Exposure in Live Responses",
+        "metric": "PII in API Response Count",
+        "primary_tool": "Presidio + mitmproxy",
+        "secondary_tool": "OWASP ZAP",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "pii_in_api_responses",
+        "module": "pii_exposure_in_live_responses__pii_in_api_response_count.py"
+      }
+    ],
+    "Data Subject Rights Testing": [
+      {
+        "classification": "Right-to-Erasure Testing",
+        "metric": "Data Deletion Verification Rate",
+        "primary_tool": "Postman",
+        "secondary_tool": "REST Assured",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "data_subject_rights_testing",
+        "module": "right_to_erasure_testing__data_deletion_verification_rate.py"
+      }
+    ],
+    "Consent & Age-Gate Compliance": [
+      {
+        "classification": "COPPA Age Verification Testing",
+        "metric": "Age-Gate Bypass Count",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Postman",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "consent_age_gate_compliance",
+        "module": "coppa_age_verification_testing__age_gate_bypass_count.py"
+      }
+    ],
+    "Cookie & Consent Testing": [
+      {
+        "classification": "Cookie Consent Compliance",
+        "metric": "Non-Consented Tracker Count",
+        "primary_tool": "OneTrust Cookie Consent",
+        "secondary_tool": "Cookiebot",
+        "sheet": "Compliance",
+        "technique_slug": "cookie_consent_testing",
+        "module": "cookie_consent_compliance__non_consented_tracker_count.py"
+      }
+    ]
+  }
+}

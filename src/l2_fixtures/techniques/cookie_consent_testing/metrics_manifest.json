@@ -1,0 +1,10 @@
+[
+  {
+    "module": "cookie_consent_compliance__non_consented_tracker_count.py",
+    "classification": "Cookie Consent Compliance",
+    "metric": "Non-Consented Tracker Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cookie & Consent Testing"
+  }
+]
