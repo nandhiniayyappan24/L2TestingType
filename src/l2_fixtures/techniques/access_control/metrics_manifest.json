@@ -1,0 +1,10 @@
+[
+  {
+    "module": "privileged_access_audit__overprivileged_account_count.py",
+    "classification": "Privileged Access Audit",
+    "metric": "Overprivileged Account Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Access Control"
+  }
+]

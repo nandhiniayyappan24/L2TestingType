@@ -1,0 +1,10 @@
+[
+  {
+    "module": "secrets_in_repo_history__historical_secret_exposure_count.py",
+    "classification": "Secrets in Repo History",
+    "metric": "Historical Secret Exposure Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Secret Management"
+  }
+]

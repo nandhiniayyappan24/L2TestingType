@@ -1,0 +1,10 @@
+[
+  {
+    "module": "soc_2_evidence_collection_rate__evidence_collection_rate.py",
+    "classification": "SOC 2 Evidence Collection Rate",
+    "metric": "Evidence Collection Rate %",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Audit Evidence Completeness"
+  }
+]
