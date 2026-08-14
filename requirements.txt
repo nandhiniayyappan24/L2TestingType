@@ -1,0 +1,10 @@
+coverage==7.6.4
+coverage>=7.0.0
+crosshair-tool==0.0.68
+pylint==3.3.1
+pylint>=3.3.0
+pytest-cov>=5.0.0
+pytest-testmon==2.1.1
+pytest>=8.0.0
+ruff==0.8.4
+ruff>=0.8.0

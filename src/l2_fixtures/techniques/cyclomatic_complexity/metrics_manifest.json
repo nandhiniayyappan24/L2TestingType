@@ -1,0 +1,50 @@
+[
+  {
+    "module": "static_analysis_metric__execution_path_integrity.py",
+    "classification": "Static Analysis Metric",
+    "metric": "Execution Path Integrity",
+    "primary_tool": "crosshair",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cyclomatic Complexity"
+  },
+  {
+    "module": "decision_coverage__decision_outcome_verification.py",
+    "classification": "Decision Coverage",
+    "metric": "Decision Outcome Verification",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cyclomatic Complexity"
+  },
+  {
+    "module": "condition_coverage__logical_sub_expression_validation.py",
+    "classification": "Condition Coverage",
+    "metric": "Logical Sub-expression Validation",
+    "primary_tool": "pymcdc",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cyclomatic Complexity"
+  },
+  {
+    "module": "logic_coverage_metric__total_logical_combinatorial_coverage.py",
+    "classification": "Logic Coverage Metric",
+    "metric": "Total Logical Combinatorial Coverage",
+    "primary_tool": "crosshair",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cyclomatic Complexity"
+  },
+  {
+    "module": "maintainability_analysis__technical_debt_impact.py",
+    "classification": "Maintainability Analysis",
+    "metric": "Technical Debt Impact",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cyclomatic Complexity"
+  },
+  {
+    "module": "test_prioritization__qa_resource_allocation.py",
+    "classification": "Test Prioritization",
+    "metric": "QA Resource Allocation",
+    "primary_tool": "testmon",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cyclomatic Complexity"
+  }
+]
