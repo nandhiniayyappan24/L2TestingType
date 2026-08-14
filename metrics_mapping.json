@@ -1,0 +1,76 @@
+{
+  "l2_testing_type": "Mutation Testing",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "Mutation Score": [
+      {
+        "classification": "Fault Detection Capability",
+        "metric": "Logic Error Sensitivity",
+        "primary_tool": "cosmic-ray",
+        "secondary_tool": "mutmut",
+        "sheet": "White Box",
+        "technique_slug": "mutation_score",
+        "module": "fault_detection_capability__logic_error_sensitivity.py"
+      },
+      {
+        "classification": "Test Coverage Quality Validation",
+        "metric": "Test Rigor Assessment",
+        "primary_tool": "cosmic-ray",
+        "secondary_tool": "mutmut",
+        "sheet": "White Box",
+        "technique_slug": "mutation_score",
+        "module": "test_coverage_quality_validation__test_rigor_assessment.py"
+      },
+      {
+        "classification": "Test Case Improvement Identification",
+        "metric": "Weak Spot Localization",
+        "primary_tool": "cosmic-ray",
+        "secondary_tool": "mutmut",
+        "sheet": "White Box",
+        "technique_slug": "mutation_score",
+        "module": "test_case_improvement_identification__weak_spot_localization.py"
+      },
+      {
+        "classification": "Edge Case Detection",
+        "metric": "Boundary Mutant Analysis",
+        "primary_tool": "cosmic-ray",
+        "secondary_tool": "mutmut",
+        "sheet": "White Box",
+        "technique_slug": "mutation_score",
+        "module": "edge_case_detection__boundary_mutant_analysis.py"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "module": "fault_detection_capability__logic_error_sensitivity.py",
+    "classification": "Fault Detection Capability",
+    "metric": "Logic Error Sensitivity",
+    "primary_tool": "cosmic-ray",
+    "secondary_tool": "mutmut",
+    "technique_display_name": "Mutation Score"
+  },
+  {
+    "module": "test_coverage_quality_validation__test_rigor_assessment.py",
+    "classification": "Test Coverage Quality Validation",
+    "metric": "Test Rigor Assessment",
+    "primary_tool": "cosmic-ray",
+    "secondary_tool": "mutmut",
+    "technique_display_name": "Mutation Score"
+  },
+  {
+    "module": "test_case_improvement_identification__weak_spot_localization.py",
+    "classification": "Test Case Improvement Identification",
+    "metric": "Weak Spot Localization",
+    "primary_tool": "cosmic-ray",
+    "secondary_tool": "mutmut",
+    "technique_display_name": "Mutation Score"
+  },
+  {
+    "module": "edge_case_detection__boundary_mutant_analysis.py",
+    "classification": "Edge Case Detection",
+    "metric": "Boundary Mutant Analysis",
+    "primary_tool": "cosmic-ray",
+    "secondary_tool": "mutmut",
+    "technique_display_name": "Mutation Score"
+  }
+]
