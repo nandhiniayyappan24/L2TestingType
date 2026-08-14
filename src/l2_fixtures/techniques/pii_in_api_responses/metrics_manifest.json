@@ -1,0 +1,10 @@
+[
+  {
+    "module": "pii_exposure_in_live_responses__pii_in_api_response_count.py",
+    "classification": "PII Exposure in Live Responses",
+    "metric": "PII in API Response Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "PII in API Responses"
+  }
+]

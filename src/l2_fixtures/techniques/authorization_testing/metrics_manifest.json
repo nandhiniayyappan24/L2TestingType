@@ -1,0 +1,10 @@
+[
+  {
+    "module": "bola_idor_testing__bola_finding_count.py",
+    "classification": "BOLA / IDOR Testing",
+    "metric": "BOLA Finding Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Authorization Testing"
+  }
+]

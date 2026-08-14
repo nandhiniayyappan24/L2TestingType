@@ -1,0 +1,10 @@
+[
+  {
+    "module": "rate_limit_enforcement_testing__apis_without_rate_limiting_count.py",
+    "classification": "Rate Limit Enforcement Testing",
+    "metric": "APIs Without Rate Limiting Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Rate Limiting Compliance"
+  }
+]

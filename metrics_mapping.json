@@ -1,0 +1,113 @@
+{
+  "l2_testing_type": "API Security",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "API Endpoint Validation": [
+      {
+        "classification": "Unauthenticated Endpoint Testing",
+        "metric": "Unauthenticated API Endpoint Count",
+        "primary_tool": "OWASP ZAP / 42Crunch",
+        "secondary_tool": "Postman / Newman",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "api_endpoint_validation",
+        "module": "unauthenticated_endpoint_testing__unauthenticated_api_endpoint_count.py"
+      }
+    ],
+    "Authorization Testing": [
+      {
+        "classification": "BOLA / IDOR Testing",
+        "metric": "BOLA Finding Count",
+        "primary_tool": "Postman / ZAP",
+        "secondary_tool": "ZAP Active Scan",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "authorization_testing",
+        "module": "bola_idor_testing__bola_finding_count.py"
+      }
+    ],
+    "Rate Limiting Compliance": [
+      {
+        "classification": "Rate Limit Enforcement Testing",
+        "metric": "APIs Without Rate Limiting Count",
+        "primary_tool": "Postman / Newman",
+        "secondary_tool": "k6 / Locust",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "rate_limiting_compliance",
+        "module": "rate_limit_enforcement_testing__apis_without_rate_limiting_count.py"
+      }
+    ],
+    "Transport Security": [
+      {
+        "classification": "Security Header Validation",
+        "metric": "Missing Security Header Count",
+        "primary_tool": "OWASP ZAP",
+        "secondary_tool": "SecurityHeaders.com API",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "transport_security",
+        "module": "security_header_validation__missing_security_header_count.py"
+      },
+      {
+        "classification": "TLS Configuration Testing",
+        "metric": "Weak TLS Config Count",
+        "primary_tool": "testssl.sh (OSS)",
+        "secondary_tool": "OWASP ZAP",
+        "sheet": "Security URL (API Service)",
+        "technique_slug": "transport_security",
+        "module": "tls_configuration_testing__weak_tls_config_count.py"
+      }
+    ],
+    "PII in API Responses": [
+      {
+        "classification": "PII Exposure in Live Responses",
+        "metric": "PII in API Response Count",
+        "primary_tool": "Presidio + mitmproxy",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "pii_in_api_responses",
+        "module": "pii_exposure_in_live_responses__pii_in_api_response_count.py"
+      }
+    ],
+    "Session Management Testing": [
+      {
+        "classification": "Session Timeout Compliance",
+        "metric": "Session Timeout Compliance Rate",
+        "primary_tool": "Postman / Playwright",
+        "secondary_tool": "",
+        "sheet": "Compliance URL (API Service)",
+        "technique_slug": "session_management_testing",
+        "module": "session_timeout_compliance__session_timeout_compliance_rate.py"
+      }
+    ]
+  }
+}
