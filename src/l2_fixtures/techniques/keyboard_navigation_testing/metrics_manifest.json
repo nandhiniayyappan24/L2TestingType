@@ -1,0 +1,10 @@
+[
+  {
+    "module": "keyboard_accessibility_coverage__keyboard_navigation_coverage.py",
+    "classification": "Keyboard Accessibility Coverage",
+    "metric": "Keyboard Navigation Coverage",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Keyboard Navigation Testing"
+  }
+]

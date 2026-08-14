@@ -1,0 +1,10 @@
+[
+  {
+    "module": "wcag_compliance_testing__wcag_compliance_score.py",
+    "classification": "WCAG Compliance Testing",
+    "metric": "WCAG Compliance Score",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Accessibility Validation"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "module": "breakpoint_validation__breakpoint_pass_rate.py",
+    "classification": "Breakpoint Validation",
+    "metric": "Breakpoint Pass Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Cross-Device Layout Validation"
+  }
+]

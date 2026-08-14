@@ -1,0 +1,10 @@
+[
+  {
+    "module": "cross_browser_testing__browser_compatibility_pass_rate.py",
+    "classification": "Cross-Browser Testing",
+    "metric": "Browser Compatibility Pass Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Experience Stability"
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "l2_testing_type": "Compatibility Testing",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "Experience Stability": [
+      {
+        "classification": "Cross-Browser Testing",
+        "metric": "Browser Compatibility Pass Rate",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "experience_stability",
+        "module": "cross_browser_testing__browser_compatibility_pass_rate.py"
+      }
+    ],
+    "Cross-Device Layout Validation": [
+      {
+        "classification": "Breakpoint Validation",
+        "metric": "Breakpoint Pass Rate",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "cross_device_layout_validation",
+        "module": "breakpoint_validation__breakpoint_pass_rate.py"
+      }
+    ],
+    "Accessibility Validation": [
+      {
+        "classification": "WCAG Compliance Testing",
+        "metric": "WCAG Compliance Score",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "accessibility_validation",
+        "module": "wcag_compliance_testing__wcag_compliance_score.py"
+      }
+    ],
+    "Keyboard Navigation Testing": [
+      {
+        "classification": "Keyboard Accessibility Coverage",
+        "metric": "Keyboard Navigation Coverage",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "keyboard_navigation_testing",
+        "module": "keyboard_accessibility_coverage__keyboard_navigation_coverage.py"
+      }
+    ]
+  }
+}
