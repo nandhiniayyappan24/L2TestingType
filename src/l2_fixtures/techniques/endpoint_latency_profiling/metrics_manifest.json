@@ -1,0 +1,10 @@
+[
+  {
+    "module": "slowest_endpoint_detection__top_n_slowest_endpoints_p95_ms.py",
+    "classification": "Slowest Endpoint Detection",
+    "metric": "Top-N Slowest Endpoints (p95 ms)",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Endpoint Latency Profiling"
+  }
+]

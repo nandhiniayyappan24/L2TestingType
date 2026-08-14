@@ -1,0 +1,10 @@
+[
+  {
+    "module": "cache_hit_rate_testing__cache_hit_rate.py",
+    "classification": "Cache Hit Rate Testing",
+    "metric": "Cache Hit Rate %",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Caching Effectiveness"
+  }
+]

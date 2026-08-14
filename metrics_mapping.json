@@ -1,0 +1,71 @@
+{
+  "l2_testing_type": "API Performance",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "Endpoint Latency Profiling": [
+      {
+        "classification": "Slowest Endpoint Detection",
+        "metric": "Top-N Slowest Endpoints (p95 ms)",
+        "primary_tool": "K6",
+        "secondary_tool": "JMeter",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "endpoint_latency_profiling",
+        "module": "slowest_endpoint_detection__top_n_slowest_endpoints_p95_ms.py"
+      }
+    ],
+    "Connection Management": [
+      {
+        "classification": "Connection Pool Exhaustion Testing",
+        "metric": "Connection Pool Saturation %",
+        "primary_tool": "K6 + DB metrics",
+        "secondary_tool": "JMeter + Prometheus",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "connection_management",
+        "module": "connection_pool_exhaustion_testing__connection_pool_saturation.py"
+      }
+    ],
+    "Caching Effectiveness": [
+      {
+        "classification": "Cache Hit Rate Testing",
+        "metric": "Cache Hit Rate %",
+        "primary_tool": "K6 + Redis metrics",
+        "secondary_tool": "JMeter + Prometheus",
+        "sheet": "Performance URL (API Service)",
+        "technique_slug": "caching_effectiveness",
+        "module": "cache_hit_rate_testing__cache_hit_rate.py"
+      }
+    ]
+  }
+}
