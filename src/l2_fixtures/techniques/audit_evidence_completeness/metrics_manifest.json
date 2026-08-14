@@ -1,0 +1,12 @@
+[
+  {
+    "module": "soc_2_evidence_collection_rate__evidence_collection_rate.py",
+    "l2_testing_type": "SOC 2 Compliance",
+    "classification": "SOC 2 Evidence Collection Rate",
+    "metric": "Evidence Collection Rate %",
+    "excel_primary_tool": "Drata",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Audit Evidence Completeness"
+  }
+]

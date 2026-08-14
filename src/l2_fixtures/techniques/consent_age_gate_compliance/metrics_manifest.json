@@ -1,0 +1,12 @@
+[
+  {
+    "module": "coppa_age_verification_testing__age_gate_bypass_count.py",
+    "l2_testing_type": "GDPR Compliance",
+    "classification": "COPPA Age Verification Testing",
+    "metric": "Age-Gate Bypass Count",
+    "excel_primary_tool": "Playwright",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Consent & Age-Gate Compliance"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "module": "broken_access_control_testing__unauthorized_access_count.py",
+    "l2_testing_type": "OWASP Testing",
+    "classification": "Broken Access Control Testing",
+    "metric": "Unauthorized Access Count",
+    "excel_primary_tool": "OWASP ZAP",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Authentication & Authorization Testing"
+  }
+]

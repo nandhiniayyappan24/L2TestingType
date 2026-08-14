@@ -1,0 +1,12 @@
+[
+  {
+    "module": "bola_idor_testing__bola_finding_count.py",
+    "l2_testing_type": "API Security",
+    "classification": "BOLA / IDOR Testing",
+    "metric": "BOLA Finding Count",
+    "excel_primary_tool": "Postman / ZAP",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "Authorization Testing"
+  }
+]
