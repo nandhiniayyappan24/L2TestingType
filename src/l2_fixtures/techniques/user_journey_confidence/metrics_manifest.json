@@ -1,0 +1,26 @@
+[
+  {
+    "module": "critical_path_testing__critical_path_success_rate.py",
+    "classification": "Critical Path Testing",
+    "metric": "Critical Path Success Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "User Journey Confidence"
+  },
+  {
+    "module": "happy_path_testing__happy_path_pass_rate.py",
+    "classification": "Happy Path Testing",
+    "metric": "Happy Path Pass Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "User Journey Confidence"
+  },
+  {
+    "module": "end_to_end_workflow_testing__workflow_execution_success.py",
+    "classification": "End-to-End Workflow Testing",
+    "metric": "Workflow Execution Success %",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "User Journey Confidence"
+  }
+]

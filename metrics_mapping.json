@@ -1,0 +1,129 @@
+{
+  "l2_testing_type": "Functional Testing",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "User Journey Confidence": [
+      {
+        "classification": "Critical Path Testing",
+        "metric": "Critical Path Success Rate",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "user_journey_confidence",
+        "module": "critical_path_testing__critical_path_success_rate.py"
+      },
+      {
+        "classification": "Happy Path Testing",
+        "metric": "Happy Path Pass Rate",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "user_journey_confidence",
+        "module": "happy_path_testing__happy_path_pass_rate.py"
+      },
+      {
+        "classification": "End-to-End Workflow Testing",
+        "metric": "Workflow Execution Success %",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "user_journey_confidence",
+        "module": "end_to_end_workflow_testing__workflow_execution_success.py"
+      }
+    ],
+    "Flow Assurance Confidence": [
+      {
+        "classification": "Step Transition Testing",
+        "metric": "State Transition Accuracy %",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "flow_assurance_confidence",
+        "module": "step_transition_testing__state_transition_accuracy.py"
+      }
+    ],
+    "Input Boundary Validity": [
+      {
+        "classification": "Minimum Boundary Testing",
+        "metric": "Min Value Pass Rate",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "input_boundary_validity",
+        "module": "minimum_boundary_testing__min_value_pass_rate.py"
+      },
+      {
+        "classification": "Maximum Boundary Testing",
+        "metric": "Max Value Pass Rate",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "input_boundary_validity",
+        "module": "maximum_boundary_testing__max_value_pass_rate.py"
+      },
+      {
+        "classification": "Just-Outside Boundary Testing",
+        "metric": "Out-of-Range Rejection Rate",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "input_boundary_validity",
+        "module": "just_outside_boundary_testing__out_of_range_rejection_rate.py"
+      }
+    ],
+    "Partition Class Coverage": [
+      {
+        "classification": "Valid Partition Testing",
+        "metric": "Valid Class Pass Rate",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "partition_class_coverage",
+        "module": "valid_partition_testing__valid_class_pass_rate.py"
+      }
+    ],
+    "Transition Correctness": [
+      {
+        "classification": "Valid State Transition Testing",
+        "metric": "Valid Transition Pass Rate",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "transition_correctness",
+        "module": "valid_state_transition_testing__valid_transition_pass_rate.py"
+      }
+    ]
+  }
+}

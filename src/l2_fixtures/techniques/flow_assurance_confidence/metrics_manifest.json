@@ -1,0 +1,10 @@
+[
+  {
+    "module": "step_transition_testing__state_transition_accuracy.py",
+    "classification": "Step Transition Testing",
+    "metric": "State Transition Accuracy %",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Flow Assurance Confidence"
+  }
+]

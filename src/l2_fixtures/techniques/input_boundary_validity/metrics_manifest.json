@@ -1,0 +1,26 @@
+[
+  {
+    "module": "minimum_boundary_testing__min_value_pass_rate.py",
+    "classification": "Minimum Boundary Testing",
+    "metric": "Min Value Pass Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Input Boundary Validity"
+  },
+  {
+    "module": "maximum_boundary_testing__max_value_pass_rate.py",
+    "classification": "Maximum Boundary Testing",
+    "metric": "Max Value Pass Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Input Boundary Validity"
+  },
+  {
+    "module": "just_outside_boundary_testing__out_of_range_rejection_rate.py",
+    "classification": "Just-Outside Boundary Testing",
+    "metric": "Out-of-Range Rejection Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Input Boundary Validity"
+  }
+]

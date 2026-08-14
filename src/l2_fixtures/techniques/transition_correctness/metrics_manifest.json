@@ -1,0 +1,10 @@
+[
+  {
+    "module": "valid_state_transition_testing__valid_transition_pass_rate.py",
+    "classification": "Valid State Transition Testing",
+    "metric": "Valid Transition Pass Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Transition Correctness"
+  }
+]

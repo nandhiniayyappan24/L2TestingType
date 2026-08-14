@@ -1,0 +1,10 @@
+[
+  {
+    "module": "valid_partition_testing__valid_class_pass_rate.py",
+    "classification": "Valid Partition Testing",
+    "metric": "Valid Class Pass Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Partition Class Coverage"
+  }
+]
