@@ -1,0 +1,58 @@
+[
+  {
+    "module": "conditional_logic_testing__boolean_accuracy_check.py",
+    "classification": "Conditional Logic Testing",
+    "metric": "Boolean Accuracy Check",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "diff-cover",
+    "technique_display_name": "Branch Coverage"
+  },
+  {
+    "module": "control_flow_validation__sequence_integrity_mapping.py",
+    "classification": "Control Flow Validation",
+    "metric": "Sequence Integrity Mapping",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "diff-cover",
+    "technique_display_name": "Branch Coverage"
+  },
+  {
+    "module": "loop_condition_testing__iteration_boundary_verification.py",
+    "classification": "Loop Condition Testing",
+    "metric": "Iteration Boundary Verification",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "diff-cover",
+    "technique_display_name": "Branch Coverage"
+  },
+  {
+    "module": "edge_case_detection__boundary_failure_identification.py",
+    "classification": "Edge Case Detection",
+    "metric": "Boundary Failure Identification",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "diff-cover",
+    "technique_display_name": "Branch Coverage"
+  },
+  {
+    "module": "logic_error_detection__branch_misdirection_discovery.py",
+    "classification": "Logic Error Detection",
+    "metric": "Branch Misdirection Discovery",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "diff-cover",
+    "technique_display_name": "Branch Coverage"
+  },
+  {
+    "module": "test_case_completeness__decision_coverage_gap_analysis.py",
+    "classification": "Test Case Completeness",
+    "metric": "Decision Coverage Gap Analysis",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "diff-cover",
+    "technique_display_name": "Branch Coverage"
+  },
+  {
+    "module": "decision_outcome_verification__branch_coverage.py",
+    "classification": "Decision Outcome Verification",
+    "metric": "Branch Coverage %",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "diff-cover",
+    "technique_display_name": "Branch Coverage"
+  }
+]

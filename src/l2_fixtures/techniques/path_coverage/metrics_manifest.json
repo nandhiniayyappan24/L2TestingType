@@ -1,0 +1,82 @@
+[
+  {
+    "module": "path_execution_tracking__retrieving_data_wait_a_few_seconds_and_try_to_cut_or_copy_again.py",
+    "classification": "Path Execution Tracking",
+    "metric": "Retrieving data. Wait a few seconds and try to cut or copy again.",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "astroid",
+    "technique_display_name": "Path Coverage"
+  },
+  {
+    "module": "complete_coverage_path_verification__full_logic_validation.py",
+    "classification": "Complete Coverage Path Verification",
+    "metric": "Full Logic Validation",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "astroid",
+    "technique_display_name": "Path Coverage"
+  },
+  {
+    "module": "partial_path_coverage_detection__gap_identification.py",
+    "classification": "Partial Path Coverage Detection",
+    "metric": "Gap Identification",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "astroid",
+    "technique_display_name": "Path Coverage"
+  },
+  {
+    "module": "nested_condition_path_testing__deep_logic_probing.py",
+    "classification": "Nested Condition Path Testing",
+    "metric": "Deep Logic Probing",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "astroid + SlipCover",
+    "technique_display_name": "Path Coverage"
+  },
+  {
+    "module": "loop_path_detection__iterative_route_analysis.py",
+    "classification": "Loop Path Detection",
+    "metric": "Iterative Route Analysis",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "astroid + SlipCover",
+    "technique_display_name": "Path Coverage"
+  },
+  {
+    "module": "unreachable_path_detection__ghost_code_discovery.py",
+    "classification": "Unreachable Path Detection",
+    "metric": "Ghost Code Discovery",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "astroid + SlipCover",
+    "technique_display_name": "Path Coverage"
+  },
+  {
+    "module": "exception_path_handling__error_flow_verification.py",
+    "classification": "Exception Path Handling",
+    "metric": "Error Flow Verification",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "astroid + SlipCover",
+    "technique_display_name": "Path Coverage"
+  },
+  {
+    "module": "multi_function_path_tracking__cross_component_mapping.py",
+    "classification": "Multi-Function Path Tracking",
+    "metric": "Cross-Component Mapping",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "astroid + SlipCover",
+    "technique_display_name": "Path Coverage"
+  },
+  {
+    "module": "cicd_integration_test__automated_quality_enforcement.py",
+    "classification": "CI/CD Integration Test",
+    "metric": "Automated Quality Enforcement",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "astroid + SlipCover",
+    "technique_display_name": "Path Coverage"
+  },
+  {
+    "module": "path_detection_testing__path_coverage.py",
+    "classification": "Path Detection Testing",
+    "metric": "Path Coverage %",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "astroid",
+    "technique_display_name": "Path Coverage"
+  }
+]

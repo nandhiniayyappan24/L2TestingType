@@ -1,0 +1,42 @@
+[
+  {
+    "module": "unit_testing_support__test_case_granularity.py",
+    "classification": "Unit Testing Support",
+    "metric": "Test Case Granularity",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Statement Coverage"
+  },
+  {
+    "module": "dead_code_detection__unreachable_logic_identification.py",
+    "classification": "Dead Code Detection",
+    "metric": "Unreachable Logic Identification",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Statement Coverage"
+  },
+  {
+    "module": "test_completeness_evaluation__coverage_gap_analysis.py",
+    "classification": "Test Completeness Evaluation",
+    "metric": "Coverage Gap Analysis",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Statement Coverage"
+  },
+  {
+    "module": "basic_logic_validation__surface_level_correctness.py",
+    "classification": "Basic Logic Validation",
+    "metric": "Surface-Level Correctness",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Statement Coverage"
+  },
+  {
+    "module": "code_execution_verification__statement_coverage.py",
+    "classification": "Code Execution Verification",
+    "metric": "Statement Coverage %",
+    "primary_tool": "coverage.py",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Statement Coverage"
+  }
+]

@@ -1,0 +1,242 @@
+{
+  "l2_testing_type": "Control Flow Testing",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "Statement Coverage": [
+      {
+        "classification": "Unit Testing Support",
+        "metric": "Test Case Granularity",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "pytest-cov",
+        "sheet": "White Box",
+        "technique_slug": "statement_coverage",
+        "module": "unit_testing_support__test_case_granularity.py"
+      },
+      {
+        "classification": "Dead Code Detection",
+        "metric": "Unreachable Logic Identification",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "pytest-cov",
+        "sheet": "White Box",
+        "technique_slug": "statement_coverage",
+        "module": "dead_code_detection__unreachable_logic_identification.py"
+      },
+      {
+        "classification": "Test Completeness Evaluation",
+        "metric": "Coverage Gap Analysis",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "pytest-cov",
+        "sheet": "White Box",
+        "technique_slug": "statement_coverage",
+        "module": "test_completeness_evaluation__coverage_gap_analysis.py"
+      },
+      {
+        "classification": "Basic Logic Validation",
+        "metric": "Surface-Level Correctness",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "pytest-cov",
+        "sheet": "White Box",
+        "technique_slug": "statement_coverage",
+        "module": "basic_logic_validation__surface_level_correctness.py"
+      },
+      {
+        "classification": "Code Execution Verification",
+        "metric": "Statement Coverage %",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "pytest-cov",
+        "sheet": "White Box",
+        "technique_slug": "statement_coverage",
+        "module": "code_execution_verification__statement_coverage.py"
+      }
+    ],
+    "Branch Coverage": [
+      {
+        "classification": "Conditional Logic Testing",
+        "metric": "Boolean Accuracy Check",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "pytest-cov --cov-branch",
+        "sheet": "White Box",
+        "technique_slug": "branch_coverage",
+        "module": "conditional_logic_testing__boolean_accuracy_check.py"
+      },
+      {
+        "classification": "Control Flow Validation",
+        "metric": "Sequence Integrity Mapping",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "pytest-cov --cov-branch",
+        "sheet": "White Box",
+        "technique_slug": "branch_coverage",
+        "module": "control_flow_validation__sequence_integrity_mapping.py"
+      },
+      {
+        "classification": "Loop Condition Testing",
+        "metric": "Iteration Boundary Verification",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "pytest-cov --cov-branch",
+        "sheet": "White Box",
+        "technique_slug": "branch_coverage",
+        "module": "loop_condition_testing__iteration_boundary_verification.py"
+      },
+      {
+        "classification": "Edge Case Detection",
+        "metric": "Boundary Failure Identification",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "pytest-cov --cov-branch",
+        "sheet": "White Box",
+        "technique_slug": "branch_coverage",
+        "module": "edge_case_detection__boundary_failure_identification.py"
+      },
+      {
+        "classification": "Logic Error Detection",
+        "metric": "Branch Misdirection Discovery",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "pytest-cov --cov-branch",
+        "sheet": "White Box",
+        "technique_slug": "branch_coverage",
+        "module": "logic_error_detection__branch_misdirection_discovery.py"
+      },
+      {
+        "classification": "Test Case Completeness",
+        "metric": "Decision Coverage Gap Analysis",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "pytest-cov --cov-branch",
+        "sheet": "White Box",
+        "technique_slug": "branch_coverage",
+        "module": "test_case_completeness__decision_coverage_gap_analysis.py"
+      },
+      {
+        "classification": "Decision Outcome Verification",
+        "metric": "Branch Coverage %",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "pytest-cov --cov-branch",
+        "sheet": "White Box",
+        "technique_slug": "branch_coverage",
+        "module": "decision_outcome_verification__branch_coverage.py"
+      }
+    ],
+    "Path Coverage": [
+      {
+        "classification": "Path Execution Tracking",
+        "metric": "Retrieving data. Wait a few seconds and try to cut or copy again.",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coverage.py + ast paths",
+        "sheet": "White Box",
+        "technique_slug": "path_coverage",
+        "module": "path_execution_tracking__retrieving_data_wait_a_few_seconds_and_try_to_cut_or_copy_again.py"
+      },
+      {
+        "classification": "Complete Coverage Path Verification",
+        "metric": "Full Logic Validation",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coverage.py + ast paths",
+        "sheet": "White Box",
+        "technique_slug": "path_coverage",
+        "module": "complete_coverage_path_verification__full_logic_validation.py"
+      },
+      {
+        "classification": "Partial Path Coverage Detection",
+        "metric": "Gap Identification",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coverage.py + ast paths",
+        "sheet": "White Box",
+        "technique_slug": "path_coverage",
+        "module": "partial_path_coverage_detection__gap_identification.py"
+      },
+      {
+        "classification": "Nested Condition Path Testing",
+        "metric": "Deep Logic Probing",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coverage_paths",
+        "sheet": "White Box",
+        "technique_slug": "path_coverage",
+        "module": "nested_condition_path_testing__deep_logic_probing.py"
+      },
+      {
+        "classification": "Loop Path Detection",
+        "metric": "Iterative Route Analysis",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coverage_paths",
+        "sheet": "White Box",
+        "technique_slug": "path_coverage",
+        "module": "loop_path_detection__iterative_route_analysis.py"
+      },
+      {
+        "classification": "Unreachable Path Detection",
+        "metric": "Ghost Code Discovery",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coverage_paths",
+        "sheet": "White Box",
+        "technique_slug": "path_coverage",
+        "module": "unreachable_path_detection__ghost_code_discovery.py"
+      },
+      {
+        "classification": "Exception Path Handling",
+        "metric": "Error Flow Verification",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coverage_paths",
+        "sheet": "White Box",
+        "technique_slug": "path_coverage",
+        "module": "exception_path_handling__error_flow_verification.py"
+      },
+      {
+        "classification": "Multi-Function Path Tracking",
+        "metric": "Cross-Component Mapping",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coverage_paths",
+        "sheet": "White Box",
+        "technique_slug": "path_coverage",
+        "module": "multi_function_path_tracking__cross_component_mapping.py"
+      },
+      {
+        "classification": "CI/CD Integration Test",
+        "metric": "Automated Quality Enforcement",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coverage_paths",
+        "sheet": "White Box",
+        "technique_slug": "path_coverage",
+        "module": "cicd_integration_test__automated_quality_enforcement.py"
+      },
+      {
+        "classification": "Path Detection Testing",
+        "metric": "Path Coverage %",
+        "primary_tool": "Coverage.py",
+        "secondary_tool": "coverage.py + ast paths",
+        "sheet": "White Box",
+        "technique_slug": "path_coverage",
+        "module": "path_detection_testing__path_coverage.py"
+      }
+    ]
+  }
+}
