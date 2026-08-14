@@ -1,0 +1,10 @@
+[
+  {
+    "module": "code_churn_in_performance_critical_paths__churn_score_performance_modules.py",
+    "classification": "Code Churn in Performance-Critical Paths",
+    "metric": "Churn Score (Performance Modules)",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Technical Debt"
+  }
+]
