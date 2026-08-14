@@ -1,0 +1,10 @@
+[
+  {
+    "module": "thread_safety_pattern_detection__race_condition_risk_count.py",
+    "classification": "Thread-Safety Pattern Detection",
+    "metric": "Race Condition Risk Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Concurrency Analysis"
+  }
+]

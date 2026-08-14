@@ -1,0 +1,10 @@
+[
+  {
+    "module": "memory_allocation_pattern_analysis__large_allocation_in_loop_count.py",
+    "classification": "Memory Allocation Pattern Analysis",
+    "metric": "Large Allocation in Loop Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Memory Management"
+  }
+]

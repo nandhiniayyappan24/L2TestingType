@@ -1,0 +1,18 @@
+[
+  {
+    "module": "complexity_based_performance_risk__cyclomatic_complexity_performance_hotspots.py",
+    "classification": "Complexity-Based Performance Risk",
+    "metric": "Cyclomatic Complexity (Performance Hotspots)",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Algorithmic Complexity"
+  },
+  {
+    "module": "big_o_complexity_review__nested_loop_depth_count.py",
+    "classification": "Big-O Complexity Review",
+    "metric": "Nested Loop Depth Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Algorithmic Complexity"
+  }
+]

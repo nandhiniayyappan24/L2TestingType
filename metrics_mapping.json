@@ -1,0 +1,91 @@
+{
+  "l2_testing_type": "Static Analysis",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "Algorithmic Complexity": [
+      {
+        "classification": "Complexity-Based Performance Risk",
+        "metric": "Cyclomatic Complexity (Performance Hotspots)",
+        "primary_tool": "",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "algorithmic_complexity",
+        "module": "complexity_based_performance_risk__cyclomatic_complexity_performance_hotspots.py"
+      },
+      {
+        "classification": "Big-O Complexity Review",
+        "metric": "Nested Loop Depth Count",
+        "primary_tool": "",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "algorithmic_complexity",
+        "module": "big_o_complexity_review__nested_loop_depth_count.py"
+      }
+    ],
+    "Database Query Analysis": [
+      {
+        "classification": "N+1 Query Pattern Detection",
+        "metric": "N+1 Query Anti-Pattern Count",
+        "primary_tool": "",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "database_query_analysis",
+        "module": "n1_query_pattern_detection__n1_query_anti_pattern_count.py"
+      }
+    ],
+    "Memory Management": [
+      {
+        "classification": "Memory Allocation Pattern Analysis",
+        "metric": "Large Allocation in Loop Count",
+        "primary_tool": "",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "memory_management",
+        "module": "memory_allocation_pattern_analysis__large_allocation_in_loop_count.py"
+      }
+    ],
+    "Concurrency Analysis": [
+      {
+        "classification": "Thread-Safety Pattern Detection",
+        "metric": "Race Condition Risk Count",
+        "primary_tool": "",
+        "secondary_tool": "",
+        "sheet": "Performance Code (Repository)",
+        "technique_slug": "concurrency_analysis",
+        "module": "thread_safety_pattern_detection__race_condition_risk_count.py"
+      }
+    ]
+  }
+}

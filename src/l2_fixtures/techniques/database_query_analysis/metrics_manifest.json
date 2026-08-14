@@ -1,0 +1,10 @@
+[
+  {
+    "module": "n1_query_pattern_detection__n1_query_anti_pattern_count.py",
+    "classification": "N+1 Query Pattern Detection",
+    "metric": "N+1 Query Anti-Pattern Count",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Database Query Analysis"
+  }
+]
