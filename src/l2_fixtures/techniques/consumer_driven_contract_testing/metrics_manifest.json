@@ -1,0 +1,10 @@
+[
+  {
+    "module": "pact_contract_verification__consumer_contract_pass_rate.py",
+    "classification": "Pact Contract Verification",
+    "metric": "Consumer Contract Pass Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Consumer-Driven Contract Testing"
+  }
+]

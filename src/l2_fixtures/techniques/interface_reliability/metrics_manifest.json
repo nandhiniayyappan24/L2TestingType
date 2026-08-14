@@ -1,0 +1,10 @@
+[
+  {
+    "module": "api_availability_testing__api_uptime.py",
+    "classification": "API Availability Testing",
+    "metric": "API Uptime %",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Interface Reliability"
+  }
+]

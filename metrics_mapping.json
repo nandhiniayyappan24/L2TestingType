@@ -1,0 +1,93 @@
+{
+  "l2_testing_type": "API Testing",
+  "primary_tools": {
+    "beniget": "3.6",
+    "cognitive-ast": "3.8",
+    "cosmic-ray": "3.9",
+    "coverage.py": "3.10",
+    "coverage.py + beniget": "3.10",
+    "crosshair": "3.8",
+    "jscpd": "2.6",
+    "pip-audit": "3.11",
+    "pydriller": "3.6",
+    "pylint": "3.11",
+    "pymcdc": "3.11",
+    "radon-lizard": "3.8",
+    "semgrep-bandit": "3.11",
+    "testmon": "3.11"
+  },
+  "secondary_tools": {
+    "Ruff": "0.8.4",
+    "complexipy": "3.8",
+    "symilar (pylint)": "3.11",
+    "Opengrep": "1.0.0",
+    "Trivy": "0.58.0",
+    "SlipCover": "1.0.5",
+    "mutmut": "2.5.0",
+    "diff-cover": "9.2.0",
+    "astroid": "3.3.5",
+    "astroid + SlipCover": "3.3.5",
+    "Opengrep (taint mode)": "1.0.0",
+    "sys.settrace driver (stdlib)": "3.11",
+    "pyan3 + astroid": "3.3.5",
+    "pylint + vulture": "3.11",
+    "dulwich": "0.22.1"
+  },
+  "techniques": {
+    "Interface Reliability": [
+      {
+        "classification": "API Availability Testing",
+        "metric": "API Uptime %",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "interface_reliability",
+        "module": "api_availability_testing__api_uptime.py"
+      }
+    ],
+    "Response Integrity Testing": [
+      {
+        "classification": "Payload Accuracy Validation",
+        "metric": "Payload Accuracy Score",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "response_integrity_testing",
+        "module": "payload_accuracy_validation__payload_accuracy_score.py"
+      }
+    ],
+    "Contract Reliability": [
+      {
+        "classification": "OpenAPI Contract Testing",
+        "metric": "Contract Conformance Rate",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "contract_reliability",
+        "module": "openapi_contract_testing__contract_conformance_rate.py"
+      }
+    ],
+    "Consumer-Driven Contract Testing": [
+      {
+        "classification": "Pact Contract Verification",
+        "metric": "Consumer Contract Pass Rate",
+        "primary_tool": "Pact (multi-language OSS)",
+        "secondary_tool": "PactFlow (free for 5 integrations)",
+        "sheet": "Black Box",
+        "technique_slug": "consumer_driven_contract_testing",
+        "module": "pact_contract_verification__consumer_contract_pass_rate.py"
+      }
+    ],
+    "Schema Drift Detection": [
+      {
+        "classification": "Breaking Change Detection",
+        "metric": "Schema Drift Frequency",
+        "primary_tool": "Playwright",
+        "secondary_tool": "Selenium",
+        "sheet": "Black Box",
+        "technique_slug": "schema_drift_detection",
+        "module": "breaking_change_detection__schema_drift_frequency.py"
+      }
+    ]
+  }
+}

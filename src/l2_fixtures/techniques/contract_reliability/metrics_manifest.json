@@ -1,0 +1,10 @@
+[
+  {
+    "module": "openapi_contract_testing__contract_conformance_rate.py",
+    "classification": "OpenAPI Contract Testing",
+    "metric": "Contract Conformance Rate",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Contract Reliability"
+  }
+]

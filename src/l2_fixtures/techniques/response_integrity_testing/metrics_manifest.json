@@ -1,0 +1,10 @@
+[
+  {
+    "module": "payload_accuracy_validation__payload_accuracy_score.py",
+    "classification": "Payload Accuracy Validation",
+    "metric": "Payload Accuracy Score",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Response Integrity Testing"
+  }
+]

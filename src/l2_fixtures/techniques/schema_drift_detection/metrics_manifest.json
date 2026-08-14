@@ -1,0 +1,10 @@
+[
+  {
+    "module": "breaking_change_detection__schema_drift_frequency.py",
+    "classification": "Breaking Change Detection",
+    "metric": "Schema Drift Frequency",
+    "primary_tool": "pylint",
+    "secondary_tool": "Ruff",
+    "technique_display_name": "Schema Drift Detection"
+  }
+]
