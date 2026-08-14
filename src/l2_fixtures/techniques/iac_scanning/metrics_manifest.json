@@ -1,0 +1,42 @@
+[
+  {
+    "module": "open_security_group_rule_detection__open_firewall_rule_count.py",
+    "l2_testing_type": "IaC Security",
+    "classification": "Open Security Group Rule Detection",
+    "metric": "Open Firewall Rule Count",
+    "excel_primary_tool": "Checkov / tfsec",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "IaC Scanning"
+  },
+  {
+    "module": "unencrypted_storage_definition__unencrypted_storage_count.py",
+    "l2_testing_type": "IaC Security",
+    "classification": "Unencrypted Storage Definition",
+    "metric": "Unencrypted Storage Count",
+    "excel_primary_tool": "Checkov / tfsec",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "IaC Scanning"
+  },
+  {
+    "module": "publicly_exposed_resource_detection__public_storage_bucket_count.py",
+    "l2_testing_type": "IaC Security",
+    "classification": "Publicly Exposed Resource Detection",
+    "metric": "Public Storage Bucket Count",
+    "excel_primary_tool": "Checkov / kics",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "IaC Scanning"
+  },
+  {
+    "module": "cis_benchmark_compliance__cis_benchmark_violation_count.py",
+    "l2_testing_type": "IaC Security",
+    "classification": "CIS Benchmark Compliance",
+    "metric": "CIS Benchmark Violation Count",
+    "excel_primary_tool": "Checkov",
+    "python_primary_tool": "pylint",
+    "python_secondary_tool": "Ruff",
+    "technique_display_name": "IaC Scanning"
+  }
+]
